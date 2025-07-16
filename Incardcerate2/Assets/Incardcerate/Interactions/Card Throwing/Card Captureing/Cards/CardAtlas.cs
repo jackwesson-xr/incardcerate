@@ -88,7 +88,7 @@ public class CardAtlas : MonoBehaviour
             //activeCard = deck[0];
             //activeCardTexture = activeCard.CardTexture;
             //Debug.Log($"Drew card: {activeCard.Data.CardName}");
-            deck[0].gameObject.SetActive(true);
+            //deck[0].gameObject.SetActive(true);
             deck.RemoveAt(0);
             
         }
@@ -127,7 +127,7 @@ public class CardAtlas : MonoBehaviour
         activeCard = blankDeck[0];
         activeCardTexture = activeCard.CardTexture;
         Debug.Log($"Drew card: {activeCard.Data.CardName}");
-        blankDeck[0].gameObject.SetActive(true);
+        //blankDeck[0].gameObject.SetActive(true);
         blankDeck.RemoveAt(0);
     }
 
@@ -172,6 +172,8 @@ public class CardAtlas : MonoBehaviour
         //activeCardTexture = activeCard.CardTexture;
         //Debug.Log($"Threw card: {activeCard.Data.CardName}");
         hand.RemoveAt(0);
+        inWorld[0].gameObject.SetActive(true); //need to adjust for increasing size... might need to remove from existance when the card gets placed down
+        inWorld[0].gameObject.GetComponent<CardReleaseScript>().hasObject = true;
     }
 
     public void TotalCardCounter()

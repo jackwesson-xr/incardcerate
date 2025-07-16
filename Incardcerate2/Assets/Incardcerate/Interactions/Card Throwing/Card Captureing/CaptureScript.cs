@@ -8,7 +8,7 @@ public class CaptureScript : MonoBehaviour
     public RuntimeCardIcon runtimeCardIconScript;
     public ParticleSystem pingEffect;
     public float delayForDestroy = 0.1f;
-    //public CardClass objectCaptured;
+    public CardReleaseScript cardReleaseScript;
 
 
     void Start()
@@ -21,6 +21,7 @@ public class CaptureScript : MonoBehaviour
                 Debug.LogWarning("RuntimeCardIcon not found in the scene!");
             }
         }
+        cardReleaseScript = GetComponent<CardReleaseScript>();
     }
 
 
@@ -40,10 +41,10 @@ public class CaptureScript : MonoBehaviour
             collectedObject = capturableObjectsScript.gameObject;
             Debug.Log("Card Contacted Capturable Object --- " + collectedObject.name);
 
-            int newLayer = LayerMask.NameToLayer("CaptureLayer");
+            //int newLayer = LayerMask.NameToLayer("CaptureLayer");
 
             // Recursively set layer for object and all children
-            SetLayerRecursively(collectedObject, newLayer);
+            //SetLayerRecursively(collectedObject, newLayer);
 
             Vector3 globalPositionOfContact = collision.contacts[0].point;
             Debug.Log(globalPositionOfContact + ": LOCATION OF CONTACT");

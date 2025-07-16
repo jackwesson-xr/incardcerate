@@ -431,6 +431,7 @@
 "Assets/Incardcerate/Interactions/Card Throwing/Card Captureing/Cards/CardAtlas.cs"
 "Assets/Incardcerate/Interactions/Card Throwing/Card Captureing/Cards/CardCollisionHandler.cs"
 "Assets/Incardcerate/Interactions/Card Throwing/Card Captureing/Cards/CardData.cs"
+"Assets/Incardcerate/Interactions/Card Throwing/Card Captureing/Cards/CardReleaseScript.cs"
 "Assets/Incardcerate/Interactions/Card Throwing/Card Captureing/Cards/Collectible.cs"
 "Assets/Incardcerate/Interactions/Card Throwing/Card Captureing/Cards/CollectibleData.cs"
 "Assets/Incardcerate/Interactions/Card Throwing/Card Captureing/Cards/Deck.cs"
