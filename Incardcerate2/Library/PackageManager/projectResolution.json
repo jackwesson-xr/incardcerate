@@ -119,6 +119,36 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.xr.hands@1.5.1": {
+      "name": "com.unity.xr.hands",
+      "displayName": "XR Hands",
+      "resolvedPath": "/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.xr.hands@860f3562c229",
+      "fingerprint": "860f3562c229c2228869eacf1aacac0f8863bc80",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.5.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.xr.interaction.toolkit@3.1.2": {
+      "name": "com.unity.xr.interaction.toolkit",
+      "displayName": "XR Interaction Toolkit",
+      "resolvedPath": "/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.xr.interaction.toolkit@42ef3600567b",
+      "fingerprint": "42ef3600567b34a1e5aea8aad2362e1e335d4e7c",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "3.1.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.xr.openxr@1.14.3": {
+      "name": "com.unity.xr.openxr",
+      "displayName": "OpenXR Plugin",
+      "resolvedPath": "/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.xr.openxr@3903c1059bcf",
+      "fingerprint": "3903c1059bcf18e6a894f8aa2076f2a8267716bd",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.14.3",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
@@ -391,6 +421,46 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.xr.core-utils@2.5.2": {
+      "name": "com.unity.xr.core-utils",
+      "displayName": "XR Core Utilities",
+      "resolvedPath": "/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d",
+      "fingerprint": "5b282bc7378d257fcefbecad81c641874f85d033",
+      "editorCompatibility": "2021.3.0f1",
+      "version": "2.5.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.xr.management@4.5.1": {
+      "name": "com.unity.xr.management",
+      "displayName": "XR Plugin Management",
+      "resolvedPath": "/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.xr.management@20be87dea580",
+      "fingerprint": "20be87dea58031bdc9e932e7e7cbe7d270db0e4a",
+      "editorCompatibility": "2020.3.15f1",
+      "version": "4.5.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.xr.legacyinputhelpers@2.1.12": {
+      "name": "com.unity.xr.legacyinputhelpers",
+      "displayName": "XR Legacy Input Helpers",
+      "resolvedPath": "/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.xr.legacyinputhelpers@b7579e86f3b4",
+      "fingerprint": "b7579e86f3b456c909fda6b875fba7ab1eeb1322",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.1.12",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.mathematics@1.3.2": {
+      "name": "com.unity.mathematics",
+      "displayName": "Mathematics",
+      "resolvedPath": "/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.mathematics@8017b507cc74",
+      "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.2",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
@@ -448,16 +518,6 @@
       "fingerprint": "59eb6f11d2422f95682320d9daa3e79fdb076744",
       "editorCompatibility": "2020.3.0a1",
       "version": "1.8.21",
-      "source": "registry",
-      "testable": false
-    },
-    "com.unity.mathematics@1.3.2": {
-      "name": "com.unity.mathematics",
-      "displayName": "Mathematics",
-      "resolvedPath": "/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.mathematics@8017b507cc74",
-      "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "1.3.2",
       "source": "registry",
       "testable": false
     },

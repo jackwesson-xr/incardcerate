@@ -361,6 +361,7 @@ MonoBehaviour:
   runtimeCardIconScript: {fileID: 0}
   pingEffect: {fileID: 0}
   delayForDestroy: 0.1
+  cardReleaseScript: {fileID: 0}
 --- !u!114 &2529957468038819365
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,0 +1,4 @@
+/Applications/Unity/Hub/Editor/6000.1.5f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja \
+  -C \
+  /Users/zach/Desktop/Incardcerate2/Incardcerate2/.utmp/RelWithDebInfo/3f2g3565/arm64-v8a \
+  game
