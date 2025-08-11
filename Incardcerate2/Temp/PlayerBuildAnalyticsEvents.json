@@ -3,8 +3,8 @@
     {
       "type": "il2cppData",
       "msg": {
-        "build_event_id": "171b741ff116f4fb48ccb0cdfe083d68",
-        "node_executed": true,
+        "build_event_id": "e65a9d9b9bea04991bba6c4fd3a106c3",
+        "node_executed": false,
         "attribute_total_count_eager_static_constructor": 82,
         "attribute_total_count_set_option": 0,
         "attribute_total_count_generate_into_own_cpp_file": 0,
@@ -42,213 +42,17 @@
     {
       "type": "playerBuildTimingData",
       "msg": {
-        "build_event_id": "171b741ff116f4fb48ccb0cdfe083d68",
-        "build_player": 107453,
-        "preprocess_player": 191,
-        "produce_player_script_assemblies": 10217,
-        "build_scripts_dlls": 7,
-        "writing_asset_files": 14411,
-        "postprocess_built_player": 74827,
+        "build_event_id": "e65a9d9b9bea04991bba6c4fd3a106c3",
+        "build_player": 79985,
+        "preprocess_player": 319,
+        "produce_player_script_assemblies": 1496,
+        "build_scripts_dlls": 10,
+        "writing_asset_files": 2579,
+        "postprocess_built_player": 63819,
         "node_summary_table": [
           {
-            "name": "Csc",
-            "duration": 1467
-          },
-          {
-            "name": "Csc",
-            "duration": 477
-          },
-          {
-            "name": "Csc",
-            "duration": 1018
-          },
-          {
-            "name": "Csc",
-            "duration": 399
-          },
-          {
-            "name": "Csc",
-            "duration": 2007
-          },
-          {
-            "name": "Csc",
-            "duration": 399
-          },
-          {
-            "name": "Csc",
-            "duration": 595
-          },
-          {
-            "name": "Csc",
-            "duration": 1020
-          },
-          {
-            "name": "Csc",
-            "duration": 542
-          },
-          {
-            "name": "Csc",
-            "duration": 190
-          },
-          {
-            "name": "Csc",
-            "duration": 306
-          },
-          {
-            "name": "Csc",
-            "duration": 435
-          },
-          {
-            "name": "Csc",
-            "duration": 1526
-          },
-          {
-            "name": "Csc",
-            "duration": 507
-          },
-          {
-            "name": "Csc",
-            "duration": 190
-          },
-          {
-            "name": "Csc",
-            "duration": 212
-          },
-          {
-            "name": "Csc",
-            "duration": 481
-          },
-          {
-            "name": "Csc",
-            "duration": 148
-          },
-          {
-            "name": "Csc",
-            "duration": 564
-          },
-          {
-            "name": "Csc",
-            "duration": 418
-          },
-          {
-            "name": "Csc",
-            "duration": 542
-          },
-          {
-            "name": "Csc",
-            "duration": 458
-          },
-          {
-            "name": "Csc",
-            "duration": 166
-          },
-          {
-            "name": "Csc",
-            "duration": 526
-          },
-          {
-            "name": "Csc",
-            "duration": 294
-          },
-          {
-            "name": "Csc",
-            "duration": 395
-          },
-          {
-            "name": "Csc",
-            "duration": 190
-          },
-          {
-            "name": "Csc",
-            "duration": 417
-          },
-          {
-            "name": "Csc",
-            "duration": 306
-          },
-          {
-            "name": "Csc",
-            "duration": 399
-          },
-          {
-            "name": "Csc",
-            "duration": 99
-          },
-          {
-            "name": "Csc",
-            "duration": 123
-          },
-          {
-            "name": "Csc",
-            "duration": 467
-          },
-          {
-            "name": "Csc",
-            "duration": 126
-          },
-          {
-            "name": "Csc",
-            "duration": 115
-          },
-          {
-            "name": "Csc",
-            "duration": 596
-          },
-          {
-            "name": "Csc",
-            "duration": 2088
-          },
-          {
-            "name": "Csc",
-            "duration": 634
-          },
-          {
-            "name": "Csc",
-            "duration": 651
-          },
-          {
-            "name": "Csc",
-            "duration": 84
-          },
-          {
-            "name": "Csc",
-            "duration": 106
-          },
-          {
-            "name": "Csc",
-            "duration": 533
-          },
-          {
-            "name": "Csc",
-            "duration": 340
-          },
-          {
-            "name": "Csc",
-            "duration": 402
-          },
-          {
-            "name": "Csc",
-            "duration": 650
-          },
-          {
-            "name": "Csc",
-            "duration": 1020
-          },
-          {
-            "name": "Csc",
-            "duration": 399
-          },
-          {
-            "name": "Csc",
-            "duration": 126
-          },
-          {
-            "name": "il2cpp.exe",
-            "duration": 7177
-          },
-          {
             "name": "UnityLinker.exe",
-            "duration": 3920
+            "duration": 3955
           }
         ]
       },
@@ -257,7 +61,7 @@
     {
       "type": "unityLinkerData",
       "msg": {
-        "build_event_id": "171b741ff116f4fb48ccb0cdfe083d68",
+        "build_event_id": "e65a9d9b9bea04991bba6c4fd3a106c3",
         "node_executed": true,
         "attribute_marked_count_always_link_assembly": 1,
         "attribute_swept_count_always_link_assembly": 0,

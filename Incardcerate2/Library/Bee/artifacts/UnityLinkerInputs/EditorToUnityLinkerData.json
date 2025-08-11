@@ -1354,6 +1354,13 @@
         {
             "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings",
             "moduleName": "",
             "usedInScenes": []

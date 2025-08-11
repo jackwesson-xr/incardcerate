@@ -116,6 +116,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulatorSettings
     - UnityEngine.XR.Interaction.Toolkit.Inputs.XRInputModalityManager
     - UnityEngine.XR.Interaction.Toolkit.Inputs.XRTransformStabilizer
+    - UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable
     - UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings
     - UnityEngine.XR.Interaction.Toolkit.Interactors.Casters.CurveInteractionCaster
     - UnityEngine.XR.Interaction.Toolkit.Interactors.Casters.SphereInteractionCaster
@@ -283,10 +284,14 @@ ScriptsOnlyBuild:
     - Unity.XR.CoreUtils.ColorUnityEvent
     - Unity.XR.CoreUtils.Datums.AnimationCurveDatumProperty
     Unity.XR.Interaction.Toolkit:
+    - UnityEngine.XR.Interaction.Toolkit.ActivateEvent
     - UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.AffordanceThemeData`1
     - UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.Primitives.ColorAffordanceTheme
     - UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.Primitives.ColorAffordanceThemeDatumProperty
+    - UnityEngine.XR.Interaction.Toolkit.DeactivateEvent
     - UnityEngine.XR.Interaction.Toolkit.Feedback.HapticImpulseData
+    - UnityEngine.XR.Interaction.Toolkit.FocusEnterEvent
+    - UnityEngine.XR.Interaction.Toolkit.FocusExitEvent
     - UnityEngine.XR.Interaction.Toolkit.Gaze.XRGazeAssistance/InteractorData
     - UnityEngine.XR.Interaction.Toolkit.HoverEnterEvent
     - UnityEngine.XR.Interaction.Toolkit.HoverExitEvent
@@ -545,6 +550,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 39654}
     - Class: 114
       Script: {instanceID: 39734}
+    - Class: 114
+      Script: {instanceID: 39776}
     - Class: 114
       Script: {instanceID: 39932}
     - Class: 114

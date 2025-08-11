@@ -1,10 +1,10 @@
 <libraries>
   <library
       name=":@@:unityLibrary::release"
-      jars="/Users/zach/.gradle/caches/8.11/transforms/075a12a97cdceaf2e8c882582b48541b/transformed/out/jars/classes.jar:/Users/zach/.gradle/caches/8.11/transforms/075a12a97cdceaf2e8c882582b48541b/transformed/out/jars/libs/R.jar:/Users/zach/.gradle/caches/8.11/transforms/075a12a97cdceaf2e8c882582b48541b/transformed/out/jars/libs/unity-classes.jar"
+      jars="/Users/zach/.gradle/caches/8.11/transforms/70209516c75e3490eb5e211ebd368548/transformed/out/jars/classes.jar:/Users/zach/.gradle/caches/8.11/transforms/70209516c75e3490eb5e211ebd368548/transformed/out/jars/libs/R.jar:/Users/zach/.gradle/caches/8.11/transforms/70209516c75e3490eb5e211ebd368548/transformed/out/jars/libs/unity-classes.jar"
       resolved="Gradle:unityLibrary:unspecified"
       partialResultsDir="/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
-      folder="/Users/zach/.gradle/caches/8.11/transforms/075a12a97cdceaf2e8c882582b48541b/transformed/out"
+      folder="/Users/zach/.gradle/caches/8.11/transforms/70209516c75e3490eb5e211ebd368548/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

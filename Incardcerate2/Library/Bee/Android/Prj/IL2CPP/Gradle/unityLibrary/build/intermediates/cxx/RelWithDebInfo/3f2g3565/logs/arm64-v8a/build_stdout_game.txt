@@ -1,10 +1,2 @@
 ninja: Entering directory `/Users/zach/Desktop/Incardcerate2/Incardcerate2/.utmp/RelWithDebInfo/3f2g3565/arm64-v8a'
-[1/9] Building CXX object GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o
-[2/9] Building CXX object GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o
-[3/9] Building CXX object GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o
-[4/9] Building CXX object GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o
-[5/9] Building CXX object GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o
-[6/9] Building CXX object GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o
-[7/9] Building CXX object GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o
-[8/9] Building CXX object GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o
-[9/9] Linking CXX shared library /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3f2g3565/obj/arm64-v8a/libgame.so
+ninja: no work to do.

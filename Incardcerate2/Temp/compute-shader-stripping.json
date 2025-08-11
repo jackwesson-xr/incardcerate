@@ -16,7 +16,7 @@
                             "inputVariants": 1,
                             "outputVariants": 1,
                             "variantName": "Kernel: ComputePositionNormal",
-                            "stripTimeMs": 0.0036000000000000005
+                            "stripTimeMs": 0.0031000000000000005
                         },
                         {
                             "inputVariants": 1,
@@ -48,7 +48,7 @@
                             "inputVariants": 12,
                             "outputVariants": 12,
                             "variantName": "Kernel: TextureReduce",
-                            "stripTimeMs": 0.0001
+                            "stripTimeMs": 0.00030000000000000003
                         }
                     ]
                 }
