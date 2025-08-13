@@ -102,6 +102,12 @@ public class CardAtlas : MonoBehaviour
             return;
         }
 
+        if (hand.Count > 0)
+        {
+            Debug.LogWarning("Alredy Holding Card");
+            return;
+        }
+
         Transform handParent = this.transform.GetChild(3);
 
         hand.Add(fan[0]);
@@ -117,6 +123,12 @@ public class CardAtlas : MonoBehaviour
         if (blankDeck.Count == 0)
         {
             Debug.LogWarning("Blank Deck is empty.");
+            return;
+        }
+
+        if (hand.Count > 0)
+        {
+            Debug.LogWarning("Alredy Holding Card");
             return;
         }
 
@@ -166,14 +178,16 @@ public class CardAtlas : MonoBehaviour
 
         Transform inWorldParent = this.transform.GetChild(4);
 
-        inWorld.Add(hand[0]);
+        //inWorld.Add(hand[0]);
         hand[0].gameObject.transform.SetParent(inWorldParent);
         //activeCard = blankDeck[0];
         //activeCardTexture = activeCard.CardTexture;
         //Debug.Log($"Threw card: {activeCard.Data.CardName}");
+        hand[0].gameObject.SetActive(true);
+        hand[0].gameObject.GetComponent<CardReleaseScript>().canRelease = true;
         hand.RemoveAt(0);
-        inWorld[0].gameObject.SetActive(true); //need to adjust for increasing size... might need to remove from existance when the card gets placed down
-        inWorld[0].gameObject.GetComponent<CardReleaseScript>().canRelease = true;
+        //inWorld[0].gameObject.SetActive(true); //need to adjust for increasing size... might need to remove from existance when the card gets placed down
+        //inWorld[0].gameObject.GetComponent<CardReleaseScript>().canRelease = true;
     }
 
     public void TotalCardCounter()
