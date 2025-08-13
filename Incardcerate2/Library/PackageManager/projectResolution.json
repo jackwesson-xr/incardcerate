@@ -139,6 +139,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.xr.mock-hmd@1.4.0-preview.2": {
+      "name": "com.unity.xr.mock-hmd",
+      "displayName": "MockHMD XR Plugin",
+      "resolvedPath": "/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.xr.mock-hmd@bf4cb37c5d7a",
+      "fingerprint": "bf4cb37c5d7a4b8dbfc9c398afe865e8bff26226",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.4.0-preview.2",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.xr.openxr@1.14.3": {
       "name": "com.unity.xr.openxr",
       "displayName": "OpenXR Plugin",

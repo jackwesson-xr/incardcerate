@@ -180,9 +180,51 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TextMeshProUGUI",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_FontAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_Settings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_SpriteAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_StyleSheet",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Unity.XR.CoreUtils.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Unity.XR.CoreUtils.XROrigin",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.MockHMD.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.XR.MockHMD.MockHMDBuildSettings",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -401,6 +443,13 @@
             "usedInScenes": [
                 "Assets/Incardcerate/Interactions/Card Throwing/Card Captureing/Card Capture Test Scene.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.EventSystems.EventSystem",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
@@ -1333,7 +1382,35 @@
         {
             "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.Hands.HandExpressionCapture",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedDeviceLifecycleManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedHandExpressionManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulatorSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRInteractionSimulator",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1513,6 +1590,20 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.Samples.DeviceSimulator.XRInteractionSimulatorInputFeedbackUI",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.Samples.DeviceSimulator.XRInteractionSimulatorPlayModeMenu",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ClimbTeleportDestinationIndicator",
@@ -1544,6 +1635,20 @@
             "managedAssemblyName": "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.GazeInputManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceGraphicRaycaster",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.UI.XRUIInputModule",
             "moduleName": "",
             "usedInScenes": []
         },

@@ -16,13 +16,13 @@
                             "inputVariants": 1,
                             "outputVariants": 1,
                             "variantName": "Kernel: ComputePositionNormal",
-                            "stripTimeMs": 0.0004
+                            "stripTimeMs": 0.0036000000000000005
                         },
                         {
                             "inputVariants": 1,
                             "outputVariants": 1,
                             "variantName": "Kernel: ComputePositionNormal",
-                            "stripTimeMs": 0.0002
+                            "stripTimeMs": 0.0007
                         }
                     ]
                 }
@@ -42,13 +42,13 @@
                             "inputVariants": 12,
                             "outputVariants": 12,
                             "variantName": "Kernel: TextureCopy",
-                            "stripTimeMs": 0.0002
+                            "stripTimeMs": 0.0004
                         },
                         {
                             "inputVariants": 12,
                             "outputVariants": 12,
                             "variantName": "Kernel: TextureReduce",
-                            "stripTimeMs": 0.0
+                            "stripTimeMs": 0.0001
                         }
                     ]
                 }

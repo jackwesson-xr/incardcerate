@@ -37,134 +37,145 @@
 22        android:required="false" />
 22-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:81-105
 23
-24    <application
-24-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:3-31:17
-25        android:enableOnBackInvokedCallback="true"
-25-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:16-58
-26        android:extractNativeLibs="true" >
-26-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:59-91
-27        <meta-data
-27-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:5-69
-28            android:name="unity.splash-mode"
-28-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:16-48
-29            android:value="0" />
-29-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:49-66
-30        <meta-data
-30-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:5-74
-31            android:name="unity.splash-enable"
-31-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:16-50
-32            android:value="True" />
-32-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:51-71
+24    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+24-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:3-73
+24-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:20-70
+25
+26    <uses-feature
+26-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:3-88
+27        android:name="oculus.software.handtracking"
+27-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:17-60
+28        android:required="false" />
+28-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:61-85
+29
+30    <application
+30-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:3-31:17
+31        android:enableOnBackInvokedCallback="true"
+31-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:16-58
+32        android:extractNativeLibs="true" >
+32-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:59-91
 33        <meta-data
-33-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:5-78
-34            android:name="unity.launch-fullscreen"
-34-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:16-54
-35            android:value="True" />
-35-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:55-75
+33-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:5-69
+34            android:name="unity.splash-mode"
+34-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:16-48
+35            android:value="0" />
+35-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:49-66
 36        <meta-data
-36-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-84
-37            android:name="unity.render-outside-safearea"
-37-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-60
+36-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:5-74
+37            android:name="unity.splash-enable"
+37-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:16-50
 38            android:value="True" />
-38-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:61-81
+38-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:51-71
 39        <meta-data
-39-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-81
-40            android:name="notch.config"
-40-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-43
-41            android:value="portrait|landscape" />
-41-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:44-78
+39-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:5-78
+40            android:name="unity.launch-fullscreen"
+40-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:16-54
+41            android:value="True" />
+41-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:55-75
 42        <meta-data
-42-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-84
-43            android:name="unity.auto-report-fully-drawn"
-43-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-60
-44            android:value="true" />
-44-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:61-81
+42-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-84
+43            android:name="unity.render-outside-safearea"
+43-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-60
+44            android:value="True" />
+44-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:61-81
 45        <meta-data
-45-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-80
-46            android:name="unity.auto-set-game-state"
-46-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-56
-47            android:value="true" />
-47-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:57-77
+45-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-81
+46            android:name="notch.config"
+46-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-43
+47            android:value="portrait|landscape" />
+47-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:44-78
 48        <meta-data
-48-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-78
-49            android:name="unity.strip-engine-code"
-49-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-54
+48-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-84
+49            android:name="unity.auto-report-fully-drawn"
+49-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-60
 50            android:value="true" />
-50-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:55-75
-51
-52        <activity
-52-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-30:16
-53            android:name="com.unity3d.player.UnityPlayerGameActivity"
-53-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:312-369
-54            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-54-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:15-196
-55            android:enabled="true"
-55-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:197-219
-56            android:exported="true"
-56-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:220-243
-57            android:hardwareAccelerated="false"
-57-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:244-279
-58            android:launchMode="singleTask"
-58-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:280-311
-59            android:resizeableActivity="true"
-59-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:370-403
-60            android:screenOrientation="fullUser"
-60-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:404-440
-61            android:theme="@style/BaseUnityGameActivityTheme" >
-61-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:441-490
-62            <intent-filter>
-62-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:7-23:23
-63                <category android:name="android.intent.category.LAUNCHER" />
-63-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:9-69
-63-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:19-66
-64
-65                <action android:name="android.intent.action.MAIN" />
-65-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:9-61
-65-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:17-58
-66
-67                <category android:name="com.oculus.intent.category.VR" />
-67-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:9-66
-67-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:19-63
-68            </intent-filter>
-69
-70            <meta-data
-70-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:7-82
-71                android:name="unityplayer.UnityActivity"
-71-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:18-58
-72                android:value="true" />
-72-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:59-79
-73            <meta-data
-73-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:7-77
-74                android:name="android.app.lib_name"
-74-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:18-53
-75                android:value="game" />
-75-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:54-74
+50-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:61-81
+51        <meta-data
+51-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-80
+52            android:name="unity.auto-set-game-state"
+52-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-56
+53            android:value="true" />
+53-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:57-77
+54        <meta-data
+54-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-78
+55            android:name="unity.strip-engine-code"
+55-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-54
+56            android:value="true" />
+56-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:55-75
+57
+58        <activity
+58-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-30:16
+59            android:name="com.unity3d.player.UnityPlayerGameActivity"
+59-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:312-369
+60            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+60-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:15-196
+61            android:enabled="true"
+61-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:197-219
+62            android:exported="true"
+62-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:220-243
+63            android:hardwareAccelerated="false"
+63-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:244-279
+64            android:launchMode="singleTask"
+64-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:280-311
+65            android:resizeableActivity="true"
+65-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:370-403
+66            android:screenOrientation="fullUser"
+66-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:404-440
+67            android:theme="@style/BaseUnityGameActivityTheme" >
+67-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:441-490
+68            <intent-filter>
+68-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:7-23:23
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:9-69
+69-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:19-66
+70
+71                <action android:name="android.intent.action.MAIN" />
+71-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:9-61
+71-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:17-58
+72
+73                <category android:name="com.oculus.intent.category.VR" />
+73-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:9-66
+73-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:19-63
+74            </intent-filter>
+75
 76            <meta-data
-76-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:7-130
-77                android:name="WindowManagerPreference:FreeformWindowSize"
-77-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:18-75
-78                android:value="@string/FreeformWindowSize_maximize" />
-78-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:76-127
+76-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:7-82
+77                android:name="unityplayer.UnityActivity"
+77-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:18-58
+78                android:value="true" />
+78-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:59-79
 79            <meta-data
-79-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:7-145
-80                android:name="WindowManagerPreference:FreeformWindowOrientation"
-80-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:18-82
-81                android:value="@string/FreeformWindowOrientation_landscape" />
-81-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:83-142
+79-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:7-77
+80                android:name="android.app.lib_name"
+80-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:18-53
+81                android:value="game" />
+81-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:54-74
 82            <meta-data
-82-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:7-70
-83                android:name="notch_support"
-83-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:18-46
-84                android:value="true" />
-84-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:47-67
-85
-86            <layout
-86-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:7-68
-87                android:minHeight="300px"
-87-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:15-40
-88                android:minWidth="400px" />
-88-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:41-65
-89        </activity>
-90    </application>
+82-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:7-130
+83                android:name="WindowManagerPreference:FreeformWindowSize"
+83-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:18-75
+84                android:value="@string/FreeformWindowSize_maximize" />
+84-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:76-127
+85            <meta-data
+85-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:7-145
+86                android:name="WindowManagerPreference:FreeformWindowOrientation"
+86-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:18-82
+87                android:value="@string/FreeformWindowOrientation_landscape" />
+87-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:83-142
+88            <meta-data
+88-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:7-70
+89                android:name="notch_support"
+89-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:18-46
+90                android:value="true" />
+90-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:47-67
 91
-92</manifest>
+92            <layout
+92-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:7-68
+93                android:minHeight="300px"
+93-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:15-40
+94                android:minWidth="400px" />
+94-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:41-65
+95        </activity>
+96    </application>
+97
+98</manifest>

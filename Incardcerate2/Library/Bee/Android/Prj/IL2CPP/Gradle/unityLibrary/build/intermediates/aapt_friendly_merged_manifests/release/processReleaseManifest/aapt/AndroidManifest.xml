@@ -21,6 +21,12 @@
         android:name="android.hardware.touchscreen.multitouch.distinct"
         android:required="false" />
 
+    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+
+    <uses-feature
+        android:name="oculus.software.handtracking"
+        android:required="false" />
+
     <application
         android:enableOnBackInvokedCallback="true"
         android:extractNativeLibs="true" >

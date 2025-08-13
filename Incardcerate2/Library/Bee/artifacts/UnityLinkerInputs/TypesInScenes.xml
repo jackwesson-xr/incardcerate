@@ -83,6 +83,13 @@
 		<type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.WhiteBalance" preserve="nothing"/>
 	</assembly>
+	<assembly fullname="Unity.TextMeshPro">
+		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
+		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
+		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
+		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
+		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="Unity.XR.CoreUtils">
 		<type fullname="Unity.XR.CoreUtils.XROrigin" preserve="nothing"/>
 	</assembly>
@@ -100,7 +107,11 @@
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Gaze.XRGazeAssistance" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.Haptics.HapticImpulsePlayer" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.Hands.HandExpressionCapture" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedDeviceLifecycleManager" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedHandExpressionManager" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulatorSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRInteractionSimulator" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.XRInputModalityManager" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.XRTransformStabilizer" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable" preserve="nothing"/>
@@ -126,7 +137,13 @@
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Locomotion.Turning.ContinuousTurnProvider" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Locomotion.Turning.SnapTurnProvider" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Locomotion.XRBodyTransformer" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceGraphicRaycaster" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.UI.XRUIInputModule" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.XRInteractionManager" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator">
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Samples.DeviceSimulator.XRInteractionSimulatorInputFeedbackUI" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Samples.DeviceSimulator.XRInteractionSimulatorPlayModeMenu" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.Interaction.Toolkit.Samples.StarterAssets">
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ClimbTeleportDestinationIndicator" preserve="nothing"/>
@@ -138,6 +155,9 @@
 	<assembly fullname="Unity.XR.Management">
 		<type fullname="UnityEngine.XR.Management.XRGeneralSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Management.XRManagerSettings" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.XR.MockHMD">
+		<type fullname="Unity.XR.MockHMD.MockHMDBuildSettings" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.OpenXR">
 		<type fullname="UnityEngine.XR.OpenXR.Features.Extensions.PerformanceSettings.XrPerformanceSettingsFeature" preserve="nothing"/>
@@ -235,6 +255,7 @@
 		<type fullname="UnityEngine.Transform" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
+		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
 		<type fullname="UnityEngine.EventSystems.EventTrigger" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Button" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>

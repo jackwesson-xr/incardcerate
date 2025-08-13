@@ -4,6 +4,7 @@ using System.Collections;
 public class CardReleaseScript : MonoBehaviour
 {
     public bool hasObject = false; //to check if the card can be released or not yet
+    public bool canRelease = false;
     public CaptureScript captureScript;
     public Vector3 contactPoint;
     void Start()
@@ -23,7 +24,7 @@ public class CardReleaseScript : MonoBehaviour
     {
         ContactPoint contact = collision.contacts[0];
         contactPoint = contact.point;
-        if (hasObject)
+        if (hasObject && canRelease)
         {
             Release();
         }

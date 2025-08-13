@@ -54,235 +54,246 @@
 33        android:required="false" />
 33-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:22:9-33
 34
-35    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-35-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:13:3-74
-35-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:13:20-71
-36    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-36-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:14:3-81
-36-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:14:20-78
-37
-38    <queries>
-38-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:16:3-27:13
-39
-40        <!-- to talk to the broker -->
-41        <provider android:authorities="org.khronos.openxr.runtime_broker;org.khronos.openxr.system_runtime_broker" />
-41-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:18:5-114
-41-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:18:15-111
-42
-43        <!-- so client-side code of runtime/layers can talk to their service sides -->
-44        <intent>
-44-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:21:5-23:14
-45            <action android:name="org.khronos.openxr.OpenXRRuntimeService" />
-45-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:22:7-72
-45-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:22:15-69
-46        </intent>
-47        <intent>
-47-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:24:5-26:14
-48            <action android:name="org.khronos.openxr.OpenXRApiLayerService" />
-48-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:25:7-73
-48-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:25:15-70
-49        </intent>
-50    </queries>
-51
-52    <uses-feature
-52-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-10:31
-53        android:name="android.hardware.vr.headtracking"
-53-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-56
-54        android:required="true"
-54-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:9-32
-55        android:version="1" />
-55-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:9-28
-56    <uses-feature
-56-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:5-13:35
-57        android:name="oculus.software.eye_tracking"
-57-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:9-52
-58        android:required="true" />
-58-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:9-32
-59
-60    <uses-permission android:name="com.oculus.permission.EYE_TRACKING" />
-60-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:5-74
-60-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:22-71
-61
-62    <permission
-62-->[androidx.core:core:1.9.0] /Users/zach/.gradle/caches/8.11/transforms/01b0759c45be5acd57b988c62a807a3d/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-63        android:name="com.UnityTechnologies.com.unity.template.urpblank.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-63-->[androidx.core:core:1.9.0] /Users/zach/.gradle/caches/8.11/transforms/01b0759c45be5acd57b988c62a807a3d/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-64        android:protectionLevel="signature" />
-64-->[androidx.core:core:1.9.0] /Users/zach/.gradle/caches/8.11/transforms/01b0759c45be5acd57b988c62a807a3d/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+35    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+35-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:24:5-75
+35-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:24:22-72
+36
+37    <uses-feature
+37-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:26:5-28:36
+38        android:name="oculus.software.handtracking"
+38-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:27:9-52
+39        android:required="false" />
+39-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:28:9-33
+40
+41    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
+41-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:13:3-74
+41-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:13:20-71
+42    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+42-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:14:3-81
+42-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:14:20-78
+43
+44    <queries>
+44-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:16:3-27:13
+45
+46        <!-- to talk to the broker -->
+47        <provider android:authorities="org.khronos.openxr.runtime_broker;org.khronos.openxr.system_runtime_broker" />
+47-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:18:5-114
+47-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:18:15-111
+48
+49        <!-- so client-side code of runtime/layers can talk to their service sides -->
+50        <intent>
+50-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:21:5-23:14
+51            <action android:name="org.khronos.openxr.OpenXRRuntimeService" />
+51-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:22:7-72
+51-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:22:15-69
+52        </intent>
+53        <intent>
+53-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:24:5-26:14
+54            <action android:name="org.khronos.openxr.OpenXRApiLayerService" />
+54-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:25:7-73
+54-->[:openxr_loader:] /Users/zach/.gradle/caches/8.11/transforms/355763e6782267842763dc5853020d3e/transformed/jetified-openxr_loader/AndroidManifest.xml:25:15-70
+55        </intent>
+56    </queries>
+57
+58    <uses-feature
+58-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-10:31
+59        android:name="android.hardware.vr.headtracking"
+59-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-56
+60        android:required="true"
+60-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:9-32
+61        android:version="1" />
+61-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:9-28
+62    <uses-feature
+62-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:5-13:35
+63        android:name="oculus.software.eye_tracking"
+63-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:9-52
+64        android:required="true" />
+64-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:9-32
 65
-66    <uses-permission android:name="com.UnityTechnologies.com.unity.template.urpblank.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-66-->[androidx.core:core:1.9.0] /Users/zach/.gradle/caches/8.11/transforms/01b0759c45be5acd57b988c62a807a3d/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-66-->[androidx.core:core:1.9.0] /Users/zach/.gradle/caches/8.11/transforms/01b0759c45be5acd57b988c62a807a3d/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+66    <uses-permission android:name="com.oculus.permission.EYE_TRACKING" />
+66-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:5-74
+66-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:22-71
 67
-68    <application
-68-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-83
-69        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-69-->[androidx.core:core:1.9.0] /Users/zach/.gradle/caches/8.11/transforms/01b0759c45be5acd57b988c62a807a3d/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-70        android:enableOnBackInvokedCallback="true"
-70-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:25:9-51
-71        android:extractNativeLibs="true"
-72        android:icon="@mipmap/app_icon"
-72-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:16-47
-73        android:label="@string/app_name" >
-73-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:48-80
-74        <meta-data
-74-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:27:9-29:33
-75            android:name="unity.splash-mode"
-75-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:28:13-45
-76            android:value="0" />
-76-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:29:13-30
-77        <meta-data
-77-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:30:9-32:36
-78            android:name="unity.splash-enable"
-78-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:31:13-47
-79            android:value="True" />
-79-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:32:13-33
+68    <permission
+68-->[androidx.core:core:1.9.0] /Users/zach/.gradle/caches/8.11/transforms/01b0759c45be5acd57b988c62a807a3d/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+69        android:name="com.UnityTechnologies.com.unity.template.urpblank.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+69-->[androidx.core:core:1.9.0] /Users/zach/.gradle/caches/8.11/transforms/01b0759c45be5acd57b988c62a807a3d/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+70        android:protectionLevel="signature" />
+70-->[androidx.core:core:1.9.0] /Users/zach/.gradle/caches/8.11/transforms/01b0759c45be5acd57b988c62a807a3d/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+71
+72    <uses-permission android:name="com.UnityTechnologies.com.unity.template.urpblank.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+72-->[androidx.core:core:1.9.0] /Users/zach/.gradle/caches/8.11/transforms/01b0759c45be5acd57b988c62a807a3d/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+72-->[androidx.core:core:1.9.0] /Users/zach/.gradle/caches/8.11/transforms/01b0759c45be5acd57b988c62a807a3d/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+73
+74    <application
+74-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-83
+75        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+75-->[androidx.core:core:1.9.0] /Users/zach/.gradle/caches/8.11/transforms/01b0759c45be5acd57b988c62a807a3d/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+76        android:enableOnBackInvokedCallback="true"
+76-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:31:9-51
+77        android:extractNativeLibs="true"
+78        android:icon="@mipmap/app_icon"
+78-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:16-47
+79        android:label="@string/app_name" >
+79-->/Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:48-80
 80        <meta-data
-80-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:33:9-35:36
-81            android:name="unity.launch-fullscreen"
-81-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:34:13-51
-82            android:value="True" />
-82-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:35:13-33
+80-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:33:9-35:33
+81            android:name="unity.splash-mode"
+81-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:34:13-45
+82            android:value="0" />
+82-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:35:13-30
 83        <meta-data
 83-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:36:9-38:36
-84            android:name="unity.render-outside-safearea"
-84-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:37:13-57
+84            android:name="unity.splash-enable"
+84-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:37:13-47
 85            android:value="True" />
 85-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:38:13-33
 86        <meta-data
-86-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:39:9-41:50
-87            android:name="notch.config"
-87-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:40:13-40
-88            android:value="portrait|landscape" />
-88-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:41:13-47
+86-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:39:9-41:36
+87            android:name="unity.launch-fullscreen"
+87-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:40:13-51
+88            android:value="True" />
+88-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:41:13-33
 89        <meta-data
 89-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:42:9-44:36
-90            android:name="unity.auto-report-fully-drawn"
+90            android:name="unity.render-outside-safearea"
 90-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:43:13-57
-91            android:value="true" />
+91            android:value="True" />
 91-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:44:13-33
 92        <meta-data
-92-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:45:9-47:36
-93            android:name="unity.auto-set-game-state"
-93-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:46:13-53
-94            android:value="true" />
-94-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:47:13-33
+92-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:45:9-47:50
+93            android:name="notch.config"
+93-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:46:13-40
+94            android:value="portrait|landscape" />
+94-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:47:13-47
 95        <meta-data
 95-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:48:9-50:36
-96            android:name="unity.strip-engine-code"
-96-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:49:13-51
+96            android:name="unity.auto-report-fully-drawn"
+96-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:49:13-57
 97            android:value="true" />
 97-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:50:13-33
-98
-99        <activity
-99-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:52:9-89:20
-100            android:name="com.unity3d.player.UnityPlayerGameActivity"
-100-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:53:13-70
-101            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-101-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:54:13-194
-102            android:enabled="true"
-102-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:55:13-35
-103            android:exported="true"
-103-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:56:13-36
-104            android:hardwareAccelerated="false"
-104-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:57:13-48
-105            android:launchMode="singleTask"
-105-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:58:13-44
-106            android:resizeableActivity="true"
-106-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:59:13-46
-107            android:screenOrientation="fullUser"
-107-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:60:13-49
-108            android:theme="@style/BaseUnityGameActivityTheme" >
-108-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:61:13-62
-109            <intent-filter>
-109-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:62:13-68:29
-110                <category android:name="android.intent.category.LAUNCHER" />
-110-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:63:17-77
-110-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:63:27-74
-111
-112                <action android:name="android.intent.action.MAIN" />
-112-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:65:17-69
-112-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:65:25-66
-113
-114                <category android:name="com.oculus.intent.category.VR" />
-114-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:67:17-74
-114-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:67:27-71
-115            </intent-filter>
-116
-117            <meta-data
-117-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:70:13-72:40
-118                android:name="unityplayer.UnityActivity"
-118-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:71:17-57
-119                android:value="true" />
-119-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:72:17-37
-120            <meta-data
-120-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:73:13-75:40
-121                android:name="android.app.lib_name"
-121-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:74:17-52
-122                android:value="game" />
-122-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:75:17-37
+98        <meta-data
+98-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:51:9-53:36
+99            android:name="unity.auto-set-game-state"
+99-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:52:13-53
+100            android:value="true" />
+100-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:53:13-33
+101        <meta-data
+101-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:54:9-56:36
+102            android:name="unity.strip-engine-code"
+102-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:55:13-51
+103            android:value="true" />
+103-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:56:13-33
+104
+105        <activity
+105-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:58:9-95:20
+106            android:name="com.unity3d.player.UnityPlayerGameActivity"
+106-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:59:13-70
+107            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+107-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:60:13-194
+108            android:enabled="true"
+108-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:61:13-35
+109            android:exported="true"
+109-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:62:13-36
+110            android:hardwareAccelerated="false"
+110-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:63:13-48
+111            android:launchMode="singleTask"
+111-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:64:13-44
+112            android:resizeableActivity="true"
+112-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:65:13-46
+113            android:screenOrientation="fullUser"
+113-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:66:13-49
+114            android:theme="@style/BaseUnityGameActivityTheme" >
+114-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:67:13-62
+115            <intent-filter>
+115-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:68:13-74:29
+116                <category android:name="android.intent.category.LAUNCHER" />
+116-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:69:17-77
+116-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:69:27-74
+117
+118                <action android:name="android.intent.action.MAIN" />
+118-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:71:17-69
+118-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:71:25-66
+119
+120                <category android:name="com.oculus.intent.category.VR" />
+120-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:73:17-74
+120-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:73:27-71
+121            </intent-filter>
+122
 123            <meta-data
-123-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:76:13-78:71
-124                android:name="WindowManagerPreference:FreeformWindowSize"
-124-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:77:17-74
-125                android:value="@string/FreeformWindowSize_maximize" />
-125-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:78:17-68
+123-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:76:13-78:40
+124                android:name="unityplayer.UnityActivity"
+124-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:77:17-57
+125                android:value="true" />
+125-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:78:17-37
 126            <meta-data
-126-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:79:13-81:79
-127                android:name="WindowManagerPreference:FreeformWindowOrientation"
-127-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:80:17-81
-128                android:value="@string/FreeformWindowOrientation_landscape" />
-128-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:81:17-76
+126-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:79:13-81:40
+127                android:name="android.app.lib_name"
+127-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:80:17-52
+128                android:value="game" />
+128-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:81:17-37
 129            <meta-data
-129-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:82:13-84:40
-130                android:name="notch_support"
-130-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:83:17-45
-131                android:value="true" />
-131-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:84:17-37
-132
-133            <layout
-133-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:86:13-88:44
-134                android:minHeight="300px"
-134-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:87:17-42
-135                android:minWidth="400px" />
-135-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:88:17-41
-136
-137            <meta-data
-137-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:21:13-23:40
-138                android:name="com.oculus.vr.focusaware"
-138-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:22:17-56
-139                android:value="true" />
-139-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:23:17-37
-140        </activity>
-141
-142        <meta-data
-142-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:26:9-28:67
-143            android:name="com.oculus.supportedDevices"
-143-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:27:13-55
-144            android:value="quest|quest2|cambria|eureka|quest3s" />
-144-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:28:13-64
-145
-146        <provider
-146-->[androidx.emoji2:emoji2:1.2.0] /Users/zach/.gradle/caches/8.11/transforms/506e0923b2edf699a568247bbabd40eb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-147            android:name="androidx.startup.InitializationProvider"
-147-->[androidx.emoji2:emoji2:1.2.0] /Users/zach/.gradle/caches/8.11/transforms/506e0923b2edf699a568247bbabd40eb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-148            android:authorities="com.UnityTechnologies.com.unity.template.urpblank.androidx-startup"
-148-->[androidx.emoji2:emoji2:1.2.0] /Users/zach/.gradle/caches/8.11/transforms/506e0923b2edf699a568247bbabd40eb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-149            android:exported="false" >
-149-->[androidx.emoji2:emoji2:1.2.0] /Users/zach/.gradle/caches/8.11/transforms/506e0923b2edf699a568247bbabd40eb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-150            <meta-data
-150-->[androidx.emoji2:emoji2:1.2.0] /Users/zach/.gradle/caches/8.11/transforms/506e0923b2edf699a568247bbabd40eb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-151                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-151-->[androidx.emoji2:emoji2:1.2.0] /Users/zach/.gradle/caches/8.11/transforms/506e0923b2edf699a568247bbabd40eb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-152                android:value="androidx.startup" />
-152-->[androidx.emoji2:emoji2:1.2.0] /Users/zach/.gradle/caches/8.11/transforms/506e0923b2edf699a568247bbabd40eb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-153            <meta-data
-153-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/zach/.gradle/caches/8.11/transforms/2be88b33c7c135c3fb5a1d54448b4c97/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-154                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-154-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/zach/.gradle/caches/8.11/transforms/2be88b33c7c135c3fb5a1d54448b4c97/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-155                android:value="androidx.startup" />
-155-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/zach/.gradle/caches/8.11/transforms/2be88b33c7c135c3fb5a1d54448b4c97/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-156        </provider>
-157    </application>
-158
-159</manifest>
+129-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:82:13-84:71
+130                android:name="WindowManagerPreference:FreeformWindowSize"
+130-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:83:17-74
+131                android:value="@string/FreeformWindowSize_maximize" />
+131-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:84:17-68
+132            <meta-data
+132-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:85:13-87:79
+133                android:name="WindowManagerPreference:FreeformWindowOrientation"
+133-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:86:17-81
+134                android:value="@string/FreeformWindowOrientation_landscape" />
+134-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:87:17-76
+135            <meta-data
+135-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:88:13-90:40
+136                android:name="notch_support"
+136-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:89:17-45
+137                android:value="true" />
+137-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:90:17-37
+138
+139            <layout
+139-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:92:13-94:44
+140                android:minHeight="300px"
+140-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:93:17-42
+141                android:minWidth="400px" />
+141-->[:unityLibrary] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:94:17-41
+142
+143            <meta-data
+143-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:21:13-23:40
+144                android:name="com.oculus.vr.focusaware"
+144-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:22:17-56
+145                android:value="true" />
+145-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:23:17-37
+146        </activity>
+147
+148        <meta-data
+148-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:26:9-28:67
+149            android:name="com.oculus.supportedDevices"
+149-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:27:13-55
+150            android:value="quest|quest2|cambria|eureka|quest3s" />
+150-->[:unityLibrary:xrmanifest.androidlib] /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:28:13-64
+151
+152        <provider
+152-->[androidx.emoji2:emoji2:1.2.0] /Users/zach/.gradle/caches/8.11/transforms/506e0923b2edf699a568247bbabd40eb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+153            android:name="androidx.startup.InitializationProvider"
+153-->[androidx.emoji2:emoji2:1.2.0] /Users/zach/.gradle/caches/8.11/transforms/506e0923b2edf699a568247bbabd40eb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+154            android:authorities="com.UnityTechnologies.com.unity.template.urpblank.androidx-startup"
+154-->[androidx.emoji2:emoji2:1.2.0] /Users/zach/.gradle/caches/8.11/transforms/506e0923b2edf699a568247bbabd40eb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+155            android:exported="false" >
+155-->[androidx.emoji2:emoji2:1.2.0] /Users/zach/.gradle/caches/8.11/transforms/506e0923b2edf699a568247bbabd40eb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+156            <meta-data
+156-->[androidx.emoji2:emoji2:1.2.0] /Users/zach/.gradle/caches/8.11/transforms/506e0923b2edf699a568247bbabd40eb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+157                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+157-->[androidx.emoji2:emoji2:1.2.0] /Users/zach/.gradle/caches/8.11/transforms/506e0923b2edf699a568247bbabd40eb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+158                android:value="androidx.startup" />
+158-->[androidx.emoji2:emoji2:1.2.0] /Users/zach/.gradle/caches/8.11/transforms/506e0923b2edf699a568247bbabd40eb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+159            <meta-data
+159-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/zach/.gradle/caches/8.11/transforms/2be88b33c7c135c3fb5a1d54448b4c97/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+160                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+160-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/zach/.gradle/caches/8.11/transforms/2be88b33c7c135c3fb5a1d54448b4c97/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+161                android:value="androidx.startup" />
+161-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/zach/.gradle/caches/8.11/transforms/2be88b33c7c135c3fb5a1d54448b4c97/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+162        </provider>
+163    </application>
+164
+165</manifest>

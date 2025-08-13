@@ -173,7 +173,7 @@ public class CardAtlas : MonoBehaviour
         //Debug.Log($"Threw card: {activeCard.Data.CardName}");
         hand.RemoveAt(0);
         inWorld[0].gameObject.SetActive(true); //need to adjust for increasing size... might need to remove from existance when the card gets placed down
-        inWorld[0].gameObject.GetComponent<CardReleaseScript>().hasObject = true;
+        inWorld[0].gameObject.GetComponent<CardReleaseScript>().canRelease = true;
     }
 
     public void TotalCardCounter()

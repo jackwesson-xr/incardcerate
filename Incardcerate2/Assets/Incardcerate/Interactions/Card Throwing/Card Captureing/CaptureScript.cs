@@ -11,6 +11,7 @@ public class CaptureScript : MonoBehaviour
     public CardReleaseScript cardReleaseScript;
 
 
+
     void Start()
     {
         if (runtimeCardIconScript == null)
@@ -48,9 +49,11 @@ public class CaptureScript : MonoBehaviour
 
             Vector3 globalPositionOfContact = collision.contacts[0].point;
             Debug.Log(globalPositionOfContact + ": LOCATION OF CONTACT");
-            Instantiate(pingEffect, globalPositionOfContact, Quaternion.identity);
+            Instantiate(pingEffect, globalPositionOfContact, Quaternion.identity); //Is Running Correctly Within The VR Game
 
-            runtimeCardIconScript.targetModel = collectedObject;
+
+
+            /*runtimeCardIconScript.targetModel = collectedObject;
             runtimeCardIconScript.GenerateCardIcon();
 
 
@@ -61,7 +64,7 @@ public class CaptureScript : MonoBehaviour
             quadRend = childFirst.GetChild(0).GetComponent<Renderer>(); // These 4 lines are only needed in new prefab setup, for the purpose of testing I am removing them atm
             quadRend.material.mainTexture = runtimeCardIconScript.staticTexture;
             quadRend = childFirst.GetChild(1).GetComponent<Renderer>();
-            quadRend.material.mainTexture = runtimeCardIconScript.staticTexture; // These lines will be added back in when everything is perfectly set up again
+            quadRend.material.mainTexture = runtimeCardIconScript.staticTexture; // These lines will be added back in when everything is perfectly set up again*/
 
             transform.gameObject.GetComponent<Card>().sourceCollectible = collectedObject.GetComponent<Collectible>();
             transform.gameObject.GetComponent<Card>().InitializeFromCollectible(transform.gameObject.GetComponent<Card>().sourceCollectible);
@@ -73,6 +76,7 @@ public class CaptureScript : MonoBehaviour
             collectedObject.SetActive(false);
 
             capturableObjectsScript = null;
+            gameObject.GetComponent<CardReleaseScript>().hasObject = true;
             //GetHighestYValueOnMesh();
             //GetLowestYValueOnMesh();
             this.gameObject.SetActive(false);

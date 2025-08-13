@@ -81,6 +81,19 @@
 		<type fullname="UnityEngine.Rendering.Universal.URPDefaultVolumeProfileSettings" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.URPShaderStrippingSetting" preserve="nothing" serialized="true"/>
 	</assembly>
+	<assembly fullname="Unity.TextMeshPro">
+		<type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.KerningTable" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Sprite" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Style" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true"/>
+	</assembly>
 	<assembly fullname="Unity.XR.CoreUtils">
 		<type fullname="Unity.XR.CoreUtils.ColorUnityEvent" preserve="nothing" serialized="true"/>
 		<type fullname="Unity.XR.CoreUtils.Datums.AnimationCurveDatumProperty" preserve="nothing" serialized="true"/>
@@ -100,6 +113,7 @@
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.Haptics.XRInputHapticImpulseProvider" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputButtonReader" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedHandExpression" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Interactors.IXRRayProvider" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Interactors.Visuals.LineProperties" preserve="nothing" serialized="true"/>
@@ -128,9 +142,19 @@
 		<type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Events.UnityEvent`1" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Pose" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.RenderPipelineGraphicsSettingsCollection" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Vector2" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.TextCoreFontEngineModule">
+		<type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.LowLevel.GlyphValueRecord" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true"/>

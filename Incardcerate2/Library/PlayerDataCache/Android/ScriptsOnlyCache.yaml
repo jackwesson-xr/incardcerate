@@ -10,6 +10,9 @@ ScriptsOnlyBuild:
     - Collectible
     - InkAttractor
     - RuntimeCardIcon
+    Unity.InputSystem:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputActionReference
@@ -87,16 +90,38 @@ ScriptsOnlyBuild:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.ShaderGraph.Editor.dll:
     - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
+    Unity.TextMeshPro:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     Unity.XR.CoreUtils.dll:
     - Unity.XR.CoreUtils.XROrigin
     Unity.XR.Hands.dll:
     - UnityEngine.XR.Hands.OpenXR.HandTracking
     - UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim
     Unity.XR.Interaction.Toolkit:
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.Hands.HandExpressionCapture
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedDeviceLifecycleManager
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedHandExpressionManager
     - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulatorSettings
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRInteractionSimulator
     - UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings
     Unity.XR.Interaction.Toolkit.Editor.dll:
     - UnityEditor.XR.Interaction.Toolkit.XRInteractionEditorSettings
+    Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator:
+    - UnityEngine.XR.Interaction.Toolkit.Samples.DeviceSimulator.XRInteractionSimulatorInputFeedbackUI
+    - UnityEngine.XR.Interaction.Toolkit.Samples.DeviceSimulator.XRInteractionSimulatorPlayModeMenu
+    Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.dll:
+    - UnityEngine.XR.Interaction.Toolkit.Samples.DeviceSimulator.XRInteractionSimulatorInputFeedbackUI
+    - UnityEngine.XR.Interaction.Toolkit.Samples.DeviceSimulator.XRInteractionSimulatorPlayModeMenu
     Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll:
     - UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ClimbTeleportDestinationIndicator
     - UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ControllerAnimator
@@ -113,7 +138,11 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.Gaze.XRGazeAssistance
     - UnityEngine.XR.Interaction.Toolkit.Inputs.Haptics.HapticImpulsePlayer
     - UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.Hands.HandExpressionCapture
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedDeviceLifecycleManager
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedHandExpressionManager
     - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulatorSettings
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRInteractionSimulator
     - UnityEngine.XR.Interaction.Toolkit.Inputs.XRInputModalityManager
     - UnityEngine.XR.Interaction.Toolkit.Inputs.XRTransformStabilizer
     - UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable
@@ -139,6 +168,8 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.Locomotion.Turning.ContinuousTurnProvider
     - UnityEngine.XR.Interaction.Toolkit.Locomotion.Turning.SnapTurnProvider
     - UnityEngine.XR.Interaction.Toolkit.Locomotion.XRBodyTransformer
+    - UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceGraphicRaycaster
+    - UnityEngine.XR.Interaction.Toolkit.UI.XRUIInputModule
     - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
@@ -146,6 +177,8 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.MockHMD.dll:
+    - Unity.XR.MockHMD.MockHMDBuildSettings
     Unity.XR.OpenXR.Editor.dll:
     - UnityEditor.XR.OpenXR.OpenXREditorSettings
     - UnityEditor.XR.OpenXR.OpenXRPackageSettings
@@ -157,6 +190,8 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.OpenXR.Features.Mock.MockRuntime
     Unity.XR.OpenXR.Features.OculusQuestSupport.dll:
     - UnityEngine.XR.OpenXR.Features.OculusQuestSupport.OculusQuestFeature
+    Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll:
+    - UnityEditor.XR.OpenXR.Features.RuntimeDebugger.RuntimeDebuggerOpenXRFeatureEditor
     Unity.XR.OpenXR.Features.RuntimeDebugger.dll:
     - UnityEngine.XR.OpenXR.Features.RuntimeDebugger.RuntimeDebuggerOpenXRFeature
     Unity.XR.OpenXR.dll:
@@ -199,9 +234,14 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Assembly-CSharp:
     - CardData
@@ -280,6 +320,18 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeTextures
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeXRResources
     - UnityEngine.Rendering.Universal.UniversalRendererResources
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
     Unity.XR.CoreUtils:
     - Unity.XR.CoreUtils.ColorUnityEvent
     - Unity.XR.CoreUtils.Datums.AnimationCurveDatumProperty
@@ -298,6 +350,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.Inputs.Haptics.XRInputHapticImpulseProvider
     - UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputButtonReader
     - UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.SimulatedHandExpression
     - UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask
     - UnityEngine.XR.Interaction.Toolkit.Interactors.IXRRayProvider
     - UnityEngine.XR.Interaction.Toolkit.Interactors.Visuals.LineProperties
@@ -323,9 +376,18 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.PersistentListenerMode
     - UnityEngine.Events.UnityEvent
     - UnityEngine.Events.UnityEvent`1
+    - UnityEngine.Pose
     - UnityEngine.RectOffset
     - UnityEngine.Rendering.RenderPipelineGraphicsSettingsCollection
     - UnityEngine.Vector2
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    - UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
+    - UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
+    - UnityEngine.TextCore.LowLevel.GlyphValueRecord
     UnityEngine.UI:
     - UnityEngine.EventSystems.EventTrigger/Entry
     - UnityEngine.EventSystems.EventTrigger/TriggerEvent
@@ -340,6 +402,21 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: CardAtlas
+    methodName: DrawBlankCard
+  - assembly: Assembly-CSharp
+    fullTypeName: CardAtlas
+    methodName: ThrowCard
+  - assembly: Assembly-CSharp
+    fullTypeName: CardAtlas
+    methodName: DrawOneCard
+  - assembly: Assembly-CSharp
+    fullTypeName: CardAtlas
+    methodName: DrawFromFan
+  - assembly: Assembly-CSharp
+    fullTypeName: CardAtlas
+    methodName: DrawFan
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerButton
     methodName: OnAction
@@ -382,6 +459,42 @@ ScriptsOnlyBuild:
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   sceneClasses:
     Assets/Incardcerate/Interactions/Card Throwing/Card Captureing/Card Capture Test Scene.unity:
     - Class: 1
@@ -433,6 +546,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 32272}
     - Class: 114
+      Script: {instanceID: 32376}
+    - Class: 114
       Script: {instanceID: 32570}
     - Class: 114
       Script: {instanceID: 32616}
@@ -442,6 +557,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 32846}
     - Class: 114
       Script: {instanceID: 32848}
+    - Class: 114
+      Script: {instanceID: 33098}
     - Class: 114
       Script: {instanceID: 33220}
     - Class: 114
@@ -459,11 +576,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 33648}
     - Class: 114
+      Script: {instanceID: 33778}
+    - Class: 114
       Script: {instanceID: 33808}
     - Class: 114
       Script: {instanceID: 34084}
     - Class: 114
       Script: {instanceID: 34288}
+    - Class: 114
+      Script: {instanceID: 34334}
     - Class: 114
       Script: {instanceID: 34358}
     - Class: 114
@@ -525,6 +646,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 38016}
     - Class: 114
+      Script: {instanceID: 38108}
+    - Class: 114
       Script: {instanceID: 38174}
     - Class: 114
       Script: {instanceID: 38260}
@@ -539,6 +662,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 38700}
     - Class: 114
+      Script: {instanceID: 39076}
+    - Class: 114
       Script: {instanceID: 39154}
     - Class: 114
       Script: {instanceID: 39356}
@@ -549,15 +674,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 39654}
     - Class: 114
+      Script: {instanceID: 39732}
+    - Class: 114
       Script: {instanceID: 39734}
     - Class: 114
       Script: {instanceID: 39776}
     - Class: 114
       Script: {instanceID: 39932}
     - Class: 114
+      Script: {instanceID: 40152}
+    - Class: 114
       Script: {instanceID: 40190}
     - Class: 114
       Script: {instanceID: 40454}
+    - Class: 114
+      Script: {instanceID: 40498}
     - Class: 114
       Script: {instanceID: 40562}
     - Class: 114
@@ -568,6 +699,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 41230}
     - Class: 114
       Script: {instanceID: 41466}
+    - Class: 114
+      Script: {instanceID: 41500}
     - Class: 114
       Script: {instanceID: 41630}
     - Class: 114
@@ -605,6 +738,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 43332}
     - Class: 114
+      Script: {instanceID: 43812}
+    - Class: 114
       Script: {instanceID: 43914}
     - Class: 114
       Script: {instanceID: 43924}
@@ -615,6 +750,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 44194}
     - Class: 114
+      Script: {instanceID: 44264}
+    - Class: 114
       Script: {instanceID: 44288}
     - Class: 114
       Script: {instanceID: 44318}
@@ -624,6 +761,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 44484}
     - Class: 114
       Script: {instanceID: 44762}
+    - Class: 114
+      Script: {instanceID: 44826}
+    - Class: 114
+      Script: {instanceID: 44864}
     - Class: 114
       Script: {instanceID: 44962}
     - Class: 114
@@ -2699,7 +2840,7 @@ ScriptsOnlyBuild:
     className: ClimbInteractable
   - hash:
       serializedVersion: 2
-      Hash: 72dd19ae9cc23278fe378c50e059b346
+      Hash: 67720c0ceed7ab5a68adc7c016453344
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CardReleaseScript
@@ -3453,6 +3594,120 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: InkAttractor
+  - hash:
+      serializedVersion: 2
+      Hash: c2ad111bd8740c1b23016cd2df979264
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.Hands
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.Hands
+    className: ObjectResetPlane
+  - hash:
+      serializedVersion: 2
+      Hash: cc7a73ebfb7305cad8e5c1882589ea10
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.Hands
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.Hands
+    className: ToggleGraphicToggler
+  - hash:
+      serializedVersion: 2
+      Hash: 24554de56df2478d8b86daf0cb898962
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.Hands
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.Hands
+    className: PokeBlendShapeAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: ceec903ad3d0c1407eb7c08f1bed7a40
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.Hands
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.Hands
+    className: Vector3ScaleAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: d8188df88c6dfab37bcdb9899690dce6
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.Hands
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.Hands
+    className: ToggleGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 7aeb569cac71002e6e638f47b692f0d6
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.Hands
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.Hands
+    className: TransformSync
+  - hash:
+      serializedVersion: 2
+      Hash: 30a4918beed59815291b6cfed503cc95
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.Hands
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.Hands
+    className: ReleaseThresholdButtonReader
+  - hash:
+      serializedVersion: 2
+      Hash: 645c839d1eac1e2fd8a41b5894ca397c
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.Hands
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.Hands
+    className: HandsOneEuroFilterPostProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: 7897a2228d8e3642451639ba718d2176
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.Hands
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.Hands
+    className: LocalPositionOffsetAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 9596fb1ba5620578849f0e67c9e5d13f
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.Hands
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.Hands
+    className: PokeGestureDetector
+  - hash:
+      serializedVersion: 2
+      Hash: b38b30d800daa570fb2ff7ab2ff9d393
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.Hands
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.Hands
+    className: PinchPointFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 750a1afaea86d62092b30c54fe344e74
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.Hands
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.Hands
+    className: ValueDerivedButtonReader
+  - hash:
+      serializedVersion: 2
+      Hash: 62a9e6f68f092faefd271fd1a1306608
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.Hands
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.Hands
+    className: MetaSystemGestureDetector
+  - hash:
+      serializedVersion: 2
+      Hash: 752eb73e7265bd8b9a4dc5c48abf3e16
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.Hands
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.Hands
+    className: HideObjectWhenInteractorBlocked
+  - hash:
+      serializedVersion: 2
+      Hash: 71c81e603a135b15e463c8f665309188
+    assemblyName: Unity.XR.Hands.Samples.VisualizerSample
+    namespaceName: UnityEngine.XR.Hands.Samples.VisualizerSample
+    className: HandVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: b2a47adb29f7e1dce676757e5081ebab
+    assemblyName: Unity.XR.Hands.Samples.VisualizerSample
+    namespaceName: UnityEngine.XR.Hands.Samples.VisualizerSample
+    className: HandProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: 139e3fcbb30f979b5c77771b1fc516f5
+    assemblyName: Unity.XR.Hands.Samples.VisualizerSample
+    namespaceName: UnityEngine.XR.Hands.Samples.VisualizerSample
+    className: JointVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 63cda63b57e2b04c1333216b853742fe
+    assemblyName: Unity.XR.MockHMD
+    namespaceName: Unity.XR.MockHMD
+    className: MockHMDLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 36b9c3b7e6f448c6c3d66eced15478e3
+    assemblyName: Unity.XR.MockHMD
+    namespaceName: Unity.XR.MockHMD
+    className: MockHMDBuildSettings
   platform: 13
   scenePathNames:
   - Assets/Incardcerate/Interactions/Card Throwing/Card Captureing/Card Capture Test
