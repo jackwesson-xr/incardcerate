@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Packages/manifest.json
+    m_FilePath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638906914690000000
-    m_Hash: 2363323235
+      ticks: 638907008240000000
+    m_Hash: 3003392932
   m_LockFileStatus:
-    m_FilePath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Packages/packages-lock.json
+    m_FilePath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638906914690000000
-    m_Hash: 1521159714
+      ticks: 638907008310000000
+    m_Hash: 3001146420
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Packages
-m_EditorVersion: 6000.1.5f1 (923722cbbcfc)
+m_ProjectPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Packages
+m_EditorVersion: 6000.1.13f1 (418bd0acaa6b)
 m_ResolvedPackages:
-- packageId: com.unity.ai.navigation@2.0.7
+- packageId: com.unity.ai.navigation@2.0.8
   testable: 0
   isDirectDependency: 1
-  version: 2.0.7
+  version: 2.0.8
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.ai.navigation@39ae74efb85f
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.ai.navigation@eb5635ad590d
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -66,7 +66,6 @@ m_ResolvedPackages:
     - 2.0.7
     - 2.0.8
     compatible:
-    - 2.0.7
     - 2.0.8
     recommended: 2.0.8
     deprecated: []
@@ -107,16 +106,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638797994194330000
+  datePublishedTicks: 638841129733020000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: f9335c44bc8104d2271e2a5c17c1829670fd7ca6
+    revision: edeb8e889d1eedf4001fa41bdab7d69d01a62f24
     path: 
   unityLifecycle:
-    version: 2.0.7
+    version: 2.0.8
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -126,23 +125,22 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n* The minimum supported editor version
-    is Unity 6 LTS. Compatibility with Unity 2023.2 is no longer guaranteed going
-    forward.\n\n### Fixed\n* Baking NavMeshSurface no longer fails when the game
-    object name has invalid file name characters."}'
+  upmReserved: '{"changelog":"### Fixed\n* Samples will now use appropriate material
+    colors in projects using HDRP or URP. Install the **com.unity.shadergraph** package
+    to show the materials correctly for built-in render pipeline projects."}'
   assetStore:
     productId: 
-  fingerprint: 39ae74efb85f9b44dc389774fc59c2ce4a8aa3b6
+  fingerprint: eb5635ad590d47cef2a5c920d9475cc222db3f67
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.7
+    minimumPackageVersion: 2.0.8
     minimumUnityVersion: 6000.0.0a1
 - packageId: com.unity.collab-proxy@2.8.2
   testable: 0
   isDirectDependency: 1
   version: 2.8.2
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -305,7 +303,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.36
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.ide.rider@4d374c7eb6db
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.ide.rider@4d374c7eb6db
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -423,7 +421,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.23
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -529,7 +527,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.14.0
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.inputsystem@7fe8299111a7
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.inputsystem@7fe8299111a7
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -682,7 +680,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -772,7 +770,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.1.0
   source: 2
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.render-pipelines.universal@43e3bf1c3037
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.render-pipelines.universal@dcd8a2aecf3e
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -850,7 +848,7 @@ m_ResolvedPackages:
   - name: com.unity.render-pipelines.core
     version: 17.1.0
   - name: com.unity.burst
-    version: 1.8.21
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -924,7 +922,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 43e3bf1c3037572f40132297f0d408abd8057ca6
+  fingerprint: dcd8a2aecf3ed167d2a8aec3556abdcc2eef110a
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.1.0
@@ -934,7 +932,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.5.1
   source: 2
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.test-framework@e9eb633386e7
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.test-framework@7056e7f856e9
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1062,7 +1060,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: e9eb633386e74717a4978296e116538a4051e958
+  fingerprint: 7056e7f856e91f1d294fbe8db0c8fea1ffd9ad5d
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.5.1
@@ -1072,7 +1070,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.timeline@c58b4ee65782
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.timeline@c58b4ee65782
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1260,7 +1258,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.ugui@7bf98f579204
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.ugui@fd678869c0d5
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1345,7 +1343,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 7bf98f5792045bbe386289663543b78c45edafe7
+  fingerprint: fd678869c0d53d7599a2f51b4195515d16de27da
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -1355,7 +1353,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.7
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.visualscripting@6279e2b7c485
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.visualscripting@6279e2b7c485
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1478,7 +1476,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.5.1
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.xr.hands@860f3562c229
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.xr.hands@860f3562c229
   assetPath: Packages/com.unity.xr.hands
   name: com.unity.xr.hands
   displayName: XR Hands
@@ -1628,7 +1626,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.1.2
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.xr.interaction.toolkit@42ef3600567b
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.xr.interaction.toolkit@42ef3600567b
   assetPath: Packages/com.unity.xr.interaction.toolkit
   name: com.unity.xr.interaction.toolkit
   displayName: XR Interaction Toolkit
@@ -1704,11 +1702,14 @@ m_ResolvedPackages:
     - 3.1.2
     - 3.2.0-pre.1
     - 3.2.0
+    - 3.2.1
+    - 3.3.0-pre.1
     compatible:
-    - 3.1.1
     - 3.1.2
     - 3.2.0-pre.1
     - 3.2.0
+    - 3.2.1
+    - 3.3.0-pre.1
     recommended: 3.1.2
     deprecated: []
   dependencies:
@@ -1781,7 +1782,7 @@ m_ResolvedPackages:
     revision: dc21ba60cc820e0285c81dcc7c6cd5e3c173c1cf
     path: 
   unityLifecycle:
-    version: 3.1.1
+    version: 3.1.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1818,14 +1819,14 @@ m_ResolvedPackages:
   fingerprint: 42ef3600567b34a1e5aea8aad2362e1e335d4e7c
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 3.1.1
+    minimumPackageVersion: 3.1.2
     minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.xr.mock-hmd@1.4.0-preview.2
   testable: 0
   isDirectDependency: 1
   version: 1.4.0-preview.2
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.xr.mock-hmd@bf4cb37c5d7a
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.xr.mock-hmd@bf4cb37c5d7a
   assetPath: Packages/com.unity.xr.mock-hmd
   name: com.unity.xr.mock-hmd
   displayName: MockHMD XR Plugin
@@ -1936,12 +1937,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0-preview.1
     minimumUnityVersion: 2021.3.0a1
-- packageId: com.unity.xr.openxr@1.14.3
+- packageId: com.unity.xr.openxr@1.15.0
   testable: 0
   isDirectDependency: 1
-  version: 1.14.3
+  version: 1.15.0
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.xr.openxr@3903c1059bcf
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.xr.openxr@24eaf1374fcf
   assetPath: Packages/com.unity.xr.openxr
   name: com.unity.xr.openxr
   displayName: OpenXR Plugin
@@ -2001,12 +2002,9 @@ m_ResolvedPackages:
     - 1.15.0
     - 1.15.1
     compatible:
-    - 1.14.3
-    - 1.15.0-pre.1
-    - 1.15.0-pre.2
     - 1.15.0
     - 1.15.1
-    recommended: 1.14.3
+    recommended: 1.15.1
     deprecated: []
   dependencies:
   - name: com.unity.inputsystem
@@ -2061,17 +2059,17 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638805963720360000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.14/manual/index.html
+  datePublishedTicks: 638868691782230000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.15/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
-    revision: dfe5bbd1c85c3045274fef73de823c443285b5d8
+    revision: 072d1dab8151cf1db10aed5b6870967a19673c23
     path: 
   unityLifecycle:
-    version: 1.14.3
-    nextVersion: 1.15.0-pre.2
+    version: 1.15.0
+    nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
@@ -2080,21 +2078,38 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n* Fixed Multiview Render Regions feature
-    regression."}'
+  upmReserved: '{"changelog":"### Added\n\n* Added settings and a component to enable
+    URP Application Spacewarp for compatible devices. Refer to [URP Application Spacewarp](xref:
+    openxr-spacewarp) for information.\n* Added a validation rule for warning of
+    Magic Leap 2 limit to existing projects from Unity 6.3.\n\n### Changed\n\n* Check
+    whether the requested eye tracking permission has been granted before requesting
+    permission.\n* Changed the Composition Layers native implementation to create
+    global references of Android surface objects.\n\n### Fixed\n\n* Fixed compile
+    errors due to `TreeView`, `TreeViewState` and `TreeViewItem` were deprecated
+    in Unity 6.2 and newer.\n* Fixed an issue to only apply OpenXR related bootconfig
+    when OpenXR Loader is enabled.\n* Enabled `XR_FB_swapchain_update_state` extension
+    by default if available to fix `XR_ERROR_EXTENSION_DEPENDENCY_NOT_ENABLED` runtime
+    error when `XR_FB_foveation` extension was enabled by default.\n* Fixed incorrect
+    display of the `Use OpenXR Predicted Time` toggle in Unity versions below 6.2.\n*
+    Fixed a crash that could occur when changing scenes containing an `OpenXRDefaultLayer`
+    with extensions.\n* Fixed compile errors due to `EditorUtility.InstanceIDToObject`
+    being deprecated in Unity 6.3 and newer.\n* Fixed foveation data corruption leading
+    to visual anomalies when the OpenXR swapchain was frequently resized.\n* Fixed
+    an increase in memory that was seen in older editors that are not checking for
+    the OffScreen Rendering Only bootconfig value."}'
   assetStore:
     productId: 
-  fingerprint: 3903c1059bcf18e6a894f8aa2076f2a8267716bd
+  fingerprint: 24eaf1374fcf8890a450eff57d46de94d5288f9c
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.14.3
+    minimumPackageVersion: 1.15.0
     minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.modules.accessibility@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -2161,7 +2176,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -2228,7 +2243,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -2294,7 +2309,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2361,7 +2376,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2428,7 +2443,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2495,7 +2510,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2566,7 +2581,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.director
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2641,7 +2656,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2708,7 +2723,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2775,7 +2790,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2842,7 +2857,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2909,7 +2924,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2976,7 +2991,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -3043,7 +3058,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -3114,7 +3129,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -3181,7 +3196,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -3256,7 +3271,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -3326,7 +3341,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3393,7 +3408,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3476,7 +3491,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3543,7 +3558,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3617,7 +3632,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3684,7 +3699,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3759,7 +3774,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3834,7 +3849,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3909,7 +3924,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -4000,7 +4015,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -4071,7 +4086,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.video
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -4150,7 +4165,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -4231,7 +4246,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -4298,7 +4313,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -4377,7 +4392,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4448,7 +4463,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.13f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -4515,7 +4530,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.5.2
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d
   assetPath: Packages/com.unity.xr.core-utils
   name: com.unity.xr.core-utils
   displayName: XR Core Utilities
@@ -4595,7 +4610,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638778451955920000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.5/manual/index.html
@@ -4636,7 +4651,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.5.1
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.xr.management@20be87dea580
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.xr.management@20be87dea580
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -4795,7 +4810,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.12
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.xr.legacyinputhelpers@b7579e86f3b4
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.xr.legacyinputhelpers@b7579e86f3b4
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -4877,7 +4892,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638738251595540000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.legacyinputhelpers@2.1/manual/index.html
@@ -4913,7 +4928,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.2
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.mathematics@8017b507cc74
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.mathematics@8017b507cc74
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -5002,7 +5017,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.ext.nunit@031a54704bff
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -5081,7 +5096,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.1.0
   source: 2
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.render-pipelines.core@84f51632ce13
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.render-pipelines.core@265bc324f310
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -5223,7 +5238,7 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.21
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -5285,7 +5300,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 84f51632ce130ea9dc8ac3751f278b2a51c6c2a0
+  fingerprint: 265bc324f3109d6b0fee438f674ce659a6454e15
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.1.0
@@ -5295,7 +5310,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.1.0
   source: 2
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.shadergraph@eb6dc067db28
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.shadergraph@8d13f365c663
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -5424,7 +5439,7 @@ m_ResolvedPackages:
   - name: com.unity.render-pipelines.core
     version: 17.1.0
   - name: com.unity.burst
-    version: 1.8.21
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -5488,7 +5503,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: eb6dc067db28dfb4dd428ad6b79b42624d318321
+  fingerprint: 8d13f365c6632c6b398ae9cd01d13bcee9880a3b
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.1.0
@@ -5498,7 +5513,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.render-pipelines.universal-config@6af1487fecff
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.render-pipelines.universal-config@8dc1aab4af1d
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -5524,7 +5539,7 @@ m_ResolvedPackages:
   - name: com.unity.render-pipelines.core
     version: 17.1.0
   - name: com.unity.burst
-    version: 1.8.21
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -5586,7 +5601,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 6af1487fecff04dbba58e29eb0f241dfd8592c96
+  fingerprint: 8dc1aab4af1d718781689a36ed5231a35ad1a524
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
@@ -5596,7 +5611,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.3
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.searcher@1e17ce91558d
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.searcher@1e17ce91558d
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -5678,12 +5693,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 4.9.2
     minimumUnityVersion: 2019.1.0a1
-- packageId: com.unity.burst@1.8.21
+- packageId: com.unity.burst@1.8.23
   testable: 0
   isDirectDependency: 0
-  version: 1.8.21
+  version: 1.8.23
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.burst@59eb6f11d242
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.burst@6aff1dd08a0c
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -5838,8 +5853,6 @@ m_ResolvedPackages:
     - 1.8.23
     - 1.8.24
     compatible:
-    - 1.8.21
-    - 1.8.22
     - 1.8.23
     - 1.8.24
     recommended: 1.8.24
@@ -5867,16 +5880,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638797336625580000
+  datePublishedTicks: 638856629417660000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/burst.git
-    revision: 941bff0925baa46012a2eff522313c170bf36c7a
+    revision: 0a4fca7c4d2ed5ed3ce7fd57c6944390dd4745a7
     path: 
   unityLifecycle:
-    version: 1.8.21
+    version: 1.8.23
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5886,43 +5899,27 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- update EmbeddedLinux argument syntax to support newer
-    clang versions\n\n### Added\n- Added LLVM 19 Support\n- Added stack protector
-    AOT settings options.\n\n### Removed\n\n### Fixed\n- Fixed hashing error that
-    could occur when an assembly contained a type reference with a \"module\" resolution
-    scope\n- Fixed internal compiler error when using a `FixedStringNBytes` value
-    in an interpolated string\n- Fixed a crash caused by assigning `null` to a `Span`\n-
-    Fixed \"Unable to resolve the method\" error that occurred when two or more methods
-    had the same name, one of the methods contained a generic parameter, and the
-    generic parameter type had two or more generic arguments\n- Fixed handling of
-    `stackalloc`ed arrays with initial values for newer versions of Visual Studio\n-
-    When building for Android with the Mono scripting backend, arm64-v8a symbols
-    could be incorrectly included in the output, even though Mono for Android only
-    supports armv7. This is now fixed.\n- Fixed compiler crash that could happen
-    when using an interface method that had a default implementation defined in another
-    interface\n- Fixed cropping of tooltips in the inspector.\n- Fixed rare \"Unhandled
-    exception. System.InvalidCastException: Unable to cast object of type ''System.IO.MemoryStream''
-    to type ''System.Text.StringBuilder''\" error that could occur during Burst compilation\n-
-    Fixed a `BC1054` error that could occur if a struct with a pointer-to-generic-parameter-typed
-    field was used as a generic argument to an interface type\n- Fixed compiler crash
-    when trying to use the `Span<T>(T[])` or `Span<T>(T[],int,int)` constructors\n\n###
-    Changed\n- EmbeddedLinux SSE4 default\n\n### Known Issues\n- With LLVM 19, Burst''s
-    alias analysis is more conservative than it needs to be which may result in performance
-    reductions in Burst compiled code. This is will be addressed in the next Burst
-    release. Note that at this time, Burst by default uses LLVM 18."}'
+  upmReserved: '{"changelog":"### Fixed\n- Fixed \"Building for ''visionOS-simulator'',
+    but linking in object file built for ''visionOS''\" errors that could occur in
+    1.8.22\n- Fixed crash that could occur during Burst compilation for methods with
+    `Span<T>` or `ReadOnlySpan<T>` parameter types\n- Fixed Burst compilation error
+    related to `Aliasing.ExpectNotAliased` failing because of unexpected aliasing
+    of `[NativeContainer]` types\n\n### Changed\n- On QNX and Embedded Linux, the
+    `BurstDebugInformation_DoNotShip` folder is now prefixed with the player build
+    directory name instead of the product name."}'
   assetStore:
     productId: 
-  fingerprint: 59eb6f11d2422f95682320d9daa3e79fdb076744
+  fingerprint: 6aff1dd08a0c2f92ddb7f56ec033a5cb88967056
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.8.21
-    minimumUnityVersion: 2020.3.0a1
+    minimumPackageVersion: 1.8.23
+    minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.collections@2.5.1
   testable: 0
   isDirectDependency: 0
   version: 2.5.1
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.collections@56bff8827a7e
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.collections@56bff8827a7e
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -6035,7 +6032,7 @@ m_ResolvedPackages:
     version: 3.0.3
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.21
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -6101,7 +6098,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.rendering.light-transport@ec31b4120e30
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.rendering.light-transport@e647573c7d2a
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -6132,7 +6129,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.burst
-    version: 1.8.21
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -6187,7 +6184,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: ec31b4120e30d44c7f702fa7bfa50d70b562cd4a
+  fingerprint: e647573c7d2ae78386ecb3f9f962738597f13fcf
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.1
@@ -6197,7 +6194,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.4
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -6279,7 +6276,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.1.0
   source: 1
-  resolvedPath: /Users/zach/Desktop/Incardcerate2/Incardcerate2/Library/PackageCache/com.unity.test-framework.performance@92d1d09a72ed
+  resolvedPath: /Users/jack/3DDesign/Unity/Github Tracked Unity/incardcerate/Incardcerate2/Library/PackageCache/com.unity.test-framework.performance@92d1d09a72ed
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
@@ -6409,4 +6406,4 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 3.1.0
     minimumUnityVersion: 2020.3.0a1
-m_BuiltInPackagesHash: f8b7c24295f8ea2abe1b96c19270c406d49a82f7
+m_BuiltInPackagesHash: a14170069cc4a0051c9b533c08d222fc012c8689

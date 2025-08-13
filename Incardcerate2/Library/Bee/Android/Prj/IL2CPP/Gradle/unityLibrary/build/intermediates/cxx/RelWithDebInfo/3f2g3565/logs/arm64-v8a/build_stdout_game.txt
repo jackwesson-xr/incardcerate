@@ -1,2 +1,0 @@
-ninja: Entering directory `/Users/zach/Desktop/Incardcerate2/Incardcerate2/.utmp/RelWithDebInfo/3f2g3565/arm64-v8a'
-ninja: no work to do.

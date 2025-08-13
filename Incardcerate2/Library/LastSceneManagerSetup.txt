@@ -1,6 +1,0 @@
-sceneSetups:
-- path: Assets/Incardcerate/Interactions/Card Throwing/Card Captureing/Card Capture
-    Test Scene.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
