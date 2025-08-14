@@ -77,6 +77,7 @@ public class CaptureScript : MonoBehaviour
 
             capturableObjectsScript = null;
             gameObject.GetComponent<CardReleaseScript>().hasObject = true;
+            gameObject.tag = "Card";
             //GetHighestYValueOnMesh();
             //GetLowestYValueOnMesh();
             this.gameObject.SetActive(false);

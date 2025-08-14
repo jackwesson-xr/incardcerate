@@ -184,6 +184,7 @@ public class CardAtlas : MonoBehaviour
         //activeCardTexture = activeCard.CardTexture;
         //Debug.Log($"Threw card: {activeCard.Data.CardName}");
         hand[0].gameObject.SetActive(true);
+        if(hand[0].gameObject.GetComponent<CardReleaseScript>().hasObject == true)
         hand[0].gameObject.GetComponent<CardReleaseScript>().canRelease = true;
         hand.RemoveAt(0);
         //inWorld[0].gameObject.SetActive(true); //need to adjust for increasing size... might need to remove from existance when the card gets placed down

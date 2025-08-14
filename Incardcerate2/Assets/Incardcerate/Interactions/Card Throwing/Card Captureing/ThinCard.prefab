@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 1280003770442973495}
   m_Layer: 0
   m_Name: ' Card'
-  m_TagString: Untagged
+  m_TagString: Blank Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

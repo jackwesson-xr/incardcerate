@@ -1,11 +1,62 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class ShootScript : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision other) {
-        if (other.gameObject.tag == "Player")
+    public bool isLoaded = false;
+    public GameObject loadedCard = null;
+    public BoxCollider boxCollider;
+    public InputActionReference shootAction;
+    //public Transform transform;
+    private void Awake()
+    {
+        shootAction.action.performed += Shoot;
+    }
+    void Start()
+    {
+        boxCollider = GetComponent<BoxCollider>();
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (!isLoaded)
         {
-            Debug.Log("BeepBoop");
+            /*if (other.gameObject.tag == "Player")
+            {
+                Debug.Log("BeepBoop");
+            }*/
+
+            if (other.gameObject.tag == "Card")
+            {
+                Debug.Log("Card Has Entered Cannon");
+                isLoaded = true;
+                loadedCard = other.gameObject;
+                loadedCard.transform.SetParent(this.gameObject.transform);
+                boxCollider.enabled = false;
+                //loadedCard.transform.position = Vector3.zero;
+                //loadedCard.transform.rotation = Quaternion.identity;
+                shootAction.action.Enable();
+                loadedCard.SetActive(false);
+            }
+
+            if (other.gameObject.tag == "Blank Card")
+            {
+                Debug.Log("Blank Card Has Entered Cannon");
+                isLoaded = true;
+                loadedCard = other.gameObject;
+            }
+        }
+    }
+
+    public float shootSpeed = 20f;
+
+    public void Shoot(InputAction.CallbackContext context)
+    {
+        if (loadedCard != null) {
+            loadedCard.SetActive(true);
+            loadedCard.transform.SetParent(null);
+            loadedCard.GetComponent<Rigidbody>().linearVelocity = transform.forward * shootSpeed;
+            shootAction.action.Disable();
         }
     }
 }
