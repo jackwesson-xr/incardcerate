@@ -54,13 +54,13 @@ public class CaptureScript : MonoBehaviour
 
 
             /*runtimeCardIconScript.targetModel = collectedObject;
-            runtimeCardIconScript.GenerateCardIcon();
+            //runtimeCardIconScript.GenerateCardIcon(); //This is the problem, meaning something within the script is going wrong but I dont want to go through that bs rn
 
 
             Renderer quadRend;
 
             var childFirst = this.gameObject.transform.GetChild(0);
-            quadRend = childFirst.GetComponent<Renderer>(); // TAKE ME OUT 
+            //quadRend = childFirst.GetComponent<Renderer>(); // TAKE ME OUT 
             quadRend = childFirst.GetChild(0).GetComponent<Renderer>(); // These 4 lines are only needed in new prefab setup, for the purpose of testing I am removing them atm
             quadRend.material.mainTexture = runtimeCardIconScript.staticTexture;
             quadRend = childFirst.GetChild(1).GetComponent<Renderer>();
@@ -80,6 +80,8 @@ public class CaptureScript : MonoBehaviour
             gameObject.tag = "Card";
             //GetHighestYValueOnMesh();
             //GetLowestYValueOnMesh();
+            this.gameObject.transform.localPosition = new Vector3(0,0,0);
+            this.gameObject.GetComponent<Collider>().attachedRigidbody.useGravity = false;
             this.gameObject.SetActive(false);
         }
     }

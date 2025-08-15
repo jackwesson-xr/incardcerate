@@ -7,6 +7,7 @@ public class ShootScript : MonoBehaviour
     public GameObject loadedCard = null;
     public BoxCollider boxCollider;
     public InputActionReference shootAction;
+    public GameObject blank;
     //public Transform transform;
     private void Awake()
     {
@@ -43,7 +44,10 @@ public class ShootScript : MonoBehaviour
             {
                 Debug.Log("Blank Card Has Entered Cannon");
                 isLoaded = true;
-                loadedCard = other.gameObject;
+                loadedCard = Instantiate(blank, other.contacts[0].point, Quaternion.identity);
+                shootAction.action.Enable();
+                loadedCard.SetActive(false);
+
             }
         }
     }
@@ -52,11 +56,14 @@ public class ShootScript : MonoBehaviour
 
     public void Shoot(InputAction.CallbackContext context)
     {
-        if (loadedCard != null) {
+        if (loadedCard != null)
+        {
             loadedCard.SetActive(true);
+            loadedCard.GetComponent<Collider>().attachedRigidbody.useGravity = false;
             loadedCard.transform.SetParent(null);
             loadedCard.GetComponent<Rigidbody>().linearVelocity = transform.forward * shootSpeed;
             shootAction.action.Disable();
+            isLoaded = false;
         }
     }
 }
