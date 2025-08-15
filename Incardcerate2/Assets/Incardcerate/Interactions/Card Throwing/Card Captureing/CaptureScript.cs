@@ -35,8 +35,8 @@ public class CaptureScript : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
 
-        capturableObjectsScript = collision.gameObject.GetComponentInParent<CapturableObjects>();
-        if (capturableObjectsScript != null || cardReleaseScript.hasObject == true) //Could add if hasObject (from CardClass) is false (might work to stop it from turning null)
+        capturableObjectsScript = collision.gameObject.GetComponentInParent<CapturableObjects>(); Debug.Log("Got A Script");
+        if (capturableObjectsScript != null && cardReleaseScript.hasObject != true && collision.gameObject.tag == "Capturable")
         {
             Debug.Log(capturableObjectsScript + ":    CAPTURABLE OBJECT SCRIPT");
             collectedObject = capturableObjectsScript.gameObject;
@@ -84,6 +84,12 @@ public class CaptureScript : MonoBehaviour
             this.gameObject.transform.localRotation = Quaternion.Euler(0f, 90f, 0f);
             this.gameObject.GetComponent<Collider>().attachedRigidbody.useGravity = false;
             this.gameObject.GetComponent<Collider>().attachedRigidbody.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ;
+            Renderer quadRend;
+            var childFirst = this.gameObject.transform.GetChild(0);
+            quadRend = childFirst.GetChild(0).GetComponent<Renderer>();
+            quadRend.material.color = Color.green;
+            quadRend = childFirst.GetChild(1).GetComponent<Renderer>();
+            quadRend.material.color = Color.green;
             this.gameObject.SetActive(false);
         }
     }

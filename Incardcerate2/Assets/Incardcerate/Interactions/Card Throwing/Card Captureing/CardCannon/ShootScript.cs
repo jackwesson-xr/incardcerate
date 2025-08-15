@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class ShootScript : MonoBehaviour
 {
@@ -16,13 +17,6 @@ public class ShootScript : MonoBehaviour
     void Start()
     {
         boxCollider = GetComponent<BoxCollider>();
-    }
-
-    void Update()
-    {
-        if (GameObject.Find("Card Atlas").GetComponent<CardAtlas>().hand.Count > 0) {
-            boxCollider.enabled = true;
-        }
     }
 
     private void OnCollisionEnter(Collision other)
@@ -54,6 +48,7 @@ public class ShootScript : MonoBehaviour
                 isLoaded = true;
                 cardAtlas.GetComponent<CardAtlas>().blankDeck.RemoveAt(0);
                 loadedCard = Instantiate(blank, other.contacts[0].point, Quaternion.identity);
+                loadedCard.GetComponent<XRGrabInteractable>().selectEntered.AddListener(args => cardAtlas.GetComponent<CardAtlas>().DrawFromFan()); //complicated af function
                 cardAtlas.GetComponent<CardAtlas>().hand.Add(loadedCard.GetComponent<Card>());
                 loadedCard.transform.SetParent(this.gameObject.transform);
                 shootAction.action.Enable();
@@ -79,6 +74,13 @@ public class ShootScript : MonoBehaviour
             shootAction.action.Disable();
             loadedCard = null;
             isLoaded = false;
+            Invoke("ActivateCollider", 0.5f);
+            Debug.Log("Shot Card");
         }
+    }
+
+    public void ActivateCollider()
+    {
+        boxCollider.enabled = true;
     }
 }
