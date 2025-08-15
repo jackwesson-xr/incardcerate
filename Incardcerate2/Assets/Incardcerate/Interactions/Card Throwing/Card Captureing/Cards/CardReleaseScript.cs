@@ -22,6 +22,7 @@ public class CardReleaseScript : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        //GameObject.Find("Card Canon").GetComponent<ShootScript>().boxCollider.enabled = true;
         ContactPoint contact = collision.contacts[0];
         contactPoint = contact.point;
         if (hasObject && canRelease)

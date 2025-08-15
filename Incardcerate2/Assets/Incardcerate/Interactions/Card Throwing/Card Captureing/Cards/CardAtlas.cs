@@ -13,13 +13,13 @@ public class CardAtlas : MonoBehaviour
     public List<Card> deck = new List<Card>();
 
     [Header("Card Components in Blank Deck")]
-    [SerializeField] private List<Card> blankDeck = new List<Card>();
+    public List<Card> blankDeck = new List<Card>();
 
     [Header("Card Components in Fan")]
     [SerializeField] private List<Card> fan = new List<Card>();
 
     [Header("Card Components in Hand")]
-    [SerializeField] private List<Card> hand = new List<Card>();
+    public List<Card> hand = new List<Card>();
 
     [Header("Card Components in World")]
     [SerializeField] private List<Card> inWorld = new List<Card>();
@@ -184,9 +184,10 @@ public class CardAtlas : MonoBehaviour
         //activeCardTexture = activeCard.CardTexture;
         //Debug.Log($"Threw card: {activeCard.Data.CardName}");
         hand[0].gameObject.SetActive(true);
-        if(hand[0].gameObject.GetComponent<CardReleaseScript>().hasObject == true)
-        hand[0].gameObject.GetComponent<CardReleaseScript>().canRelease = true;
+        if (hand[0].gameObject.GetComponent<CardReleaseScript>().hasObject == true)
+            hand[0].gameObject.GetComponent<CardReleaseScript>().canRelease = true;
         hand.RemoveAt(0);
+        Debug.Log("Threw Card");
         //inWorld[0].gameObject.SetActive(true); //need to adjust for increasing size... might need to remove from existance when the card gets placed down
         //inWorld[0].gameObject.GetComponent<CardReleaseScript>().canRelease = true;
     }

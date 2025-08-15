@@ -2072,7 +2072,7 @@
                 {
                     "name": "Shoot",
                     "type": "Button",
-                    "id": "f97decb5-bd9b-48b3-b952-b55217d09a19",
+                    "id": "38b3a1db-5d13-47c2-8229-8760dae9e181",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -2390,7 +2390,7 @@
                 },
                 {
                     "name": "",
-                    "id": "5acd1b95-a9d4-4ba2-b598-53aa5f74f58d",
+                    "id": "4f96ae79-b685-4c06-9277-2a36ec903a65",
                     "path": "<XRController>{RightHand}/{TriggerButton}",
                     "interactions": "",
                     "processors": "",

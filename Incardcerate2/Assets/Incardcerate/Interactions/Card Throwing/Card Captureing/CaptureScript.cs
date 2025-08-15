@@ -36,7 +36,7 @@ public class CaptureScript : MonoBehaviour
     {
 
         capturableObjectsScript = collision.gameObject.GetComponentInParent<CapturableObjects>();
-        if (capturableObjectsScript != null) //Could add if hasObject (from CardClass) is false (might work to stop it from turning null)
+        if (capturableObjectsScript != null || cardReleaseScript.hasObject == true) //Could add if hasObject (from CardClass) is false (might work to stop it from turning null)
         {
             Debug.Log(capturableObjectsScript + ":    CAPTURABLE OBJECT SCRIPT");
             collectedObject = capturableObjectsScript.gameObject;
@@ -80,8 +80,10 @@ public class CaptureScript : MonoBehaviour
             gameObject.tag = "Card";
             //GetHighestYValueOnMesh();
             //GetLowestYValueOnMesh();
-            this.gameObject.transform.localPosition = new Vector3(0,0,0);
+            this.gameObject.transform.localPosition = new Vector3(-0.2f,0,0);
+            this.gameObject.transform.localRotation = Quaternion.Euler(0f, 90f, 0f);
             this.gameObject.GetComponent<Collider>().attachedRigidbody.useGravity = false;
+            this.gameObject.GetComponent<Collider>().attachedRigidbody.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ;
             this.gameObject.SetActive(false);
         }
     }

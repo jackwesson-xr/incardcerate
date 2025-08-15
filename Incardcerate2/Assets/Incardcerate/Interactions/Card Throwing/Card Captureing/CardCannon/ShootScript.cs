@@ -18,6 +18,13 @@ public class ShootScript : MonoBehaviour
         boxCollider = GetComponent<BoxCollider>();
     }
 
+    void Update()
+    {
+        if (GameObject.Find("Card Atlas").GetComponent<CardAtlas>().hand.Count > 0) {
+            boxCollider.enabled = true;
+        }
+    }
+
     private void OnCollisionEnter(Collision other)
     {
         if (!isLoaded)
@@ -39,13 +46,18 @@ public class ShootScript : MonoBehaviour
                 shootAction.action.Enable();
                 loadedCard.SetActive(false);
             }
+            GameObject cardAtlas = GameObject.Find("Card Atlas");
 
-            if (other.gameObject.tag == "Blank Card")
+            if (other.gameObject.tag == "Blank Card" && cardAtlas.GetComponent<CardAtlas>().blankDeck.Count > 0)
             {
                 Debug.Log("Blank Card Has Entered Cannon");
                 isLoaded = true;
+                cardAtlas.GetComponent<CardAtlas>().blankDeck.RemoveAt(0);
                 loadedCard = Instantiate(blank, other.contacts[0].point, Quaternion.identity);
+                cardAtlas.GetComponent<CardAtlas>().hand.Add(loadedCard.GetComponent<Card>());
+                loadedCard.transform.SetParent(this.gameObject.transform);
                 shootAction.action.Enable();
+                boxCollider.enabled = false;
                 loadedCard.SetActive(false);
 
             }
@@ -59,10 +71,13 @@ public class ShootScript : MonoBehaviour
         if (loadedCard != null)
         {
             loadedCard.SetActive(true);
-            loadedCard.GetComponent<Collider>().attachedRigidbody.useGravity = false;
+            GameObject.Find("Card Atlas").GetComponent<CardAtlas>().ThrowCard();
+            loadedCard.GetComponent<Collider>().attachedRigidbody.useGravity = true;
+            loadedCard.gameObject.GetComponent<Collider>().attachedRigidbody.constraints = RigidbodyConstraints.None;
             loadedCard.transform.SetParent(null);
             loadedCard.GetComponent<Rigidbody>().linearVelocity = transform.forward * shootSpeed;
             shootAction.action.Disable();
+            loadedCard = null;
             isLoaded = false;
         }
     }
