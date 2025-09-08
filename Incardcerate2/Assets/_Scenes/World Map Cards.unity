@@ -10922,6 +10922,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Herring (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1342889782683910774, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
+      objectReference: {fileID: 0}
     - target: {fileID: 1604981034209185665, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2949795
@@ -11308,6 +11312,10 @@ PrefabInstance:
     - target: {fileID: 4807929556901506227, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
       propertyPath: m_Name
       value: Taipan (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4807929556901506227, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
       objectReference: {fileID: 0}
     - target: {fileID: 8999338503545881367, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
       propertyPath: m_LocalScale.x
@@ -22394,6 +22402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gecko (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6842458599697738422, guid: cefda5744f2acb54d8f08973a10bee1e, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
+      objectReference: {fileID: 0}
     - target: {fileID: 7979196013395532419, guid: cefda5744f2acb54d8f08973a10bee1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -34.639
@@ -27207,6 +27219,10 @@ PrefabInstance:
     - target: {fileID: 1342889782683910774, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
       propertyPath: m_Name
       value: Herring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1342889782683910774, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
       objectReference: {fileID: 0}
     - target: {fileID: 1604981034209185665, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
       propertyPath: m_LocalScale.x
@@ -33260,6 +33276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Taipan
       objectReference: {fileID: 0}
+    - target: {fileID: 4807929556901506227, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
+      objectReference: {fileID: 0}
     - target: {fileID: 8999338503545881367, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.0348969
@@ -35320,6 +35340,10 @@ PrefabInstance:
     - target: {fileID: 4807929556901506227, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
       propertyPath: m_Name
       value: Taipan (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4807929556901506227, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
       objectReference: {fileID: 0}
     - target: {fileID: 8999338503545881367, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
       propertyPath: m_LocalScale.x
@@ -38461,6 +38485,10 @@ PrefabInstance:
     - target: {fileID: 1342889782683910774, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
       propertyPath: m_Name
       value: Herring (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1342889782683910774, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
       objectReference: {fileID: 0}
     - target: {fileID: 1604981034209185665, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
       propertyPath: m_LocalScale.x
@@ -52944,6 +52972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gecko
       objectReference: {fileID: 0}
+    - target: {fileID: 6842458599697738422, guid: cefda5744f2acb54d8f08973a10bee1e, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
+      objectReference: {fileID: 0}
     - target: {fileID: 7979196013395532419, guid: cefda5744f2acb54d8f08973a10bee1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -34.35
@@ -56862,6 +56894,10 @@ PrefabInstance:
     - target: {fileID: 6788538757290762323, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
       propertyPath: m_Name
       value: Sparrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788538757290762323, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -66068,6 +66104,10 @@ PrefabInstance:
     - target: {fileID: 5279811246306103102, guid: 252ba5fa5d8167e42af72cf97baa830e, type: 3}
       propertyPath: m_Name
       value: Pudu
+      objectReference: {fileID: 0}
+    - target: {fileID: 5279811246306103102, guid: 252ba5fa5d8167e42af72cf97baa830e, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -88582,6 +88622,10 @@ PrefabInstance:
     - target: {fileID: 1342889782683910774, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
       propertyPath: m_Name
       value: Herring (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1342889782683910774, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
       objectReference: {fileID: 0}
     - target: {fileID: 1604981034209185665, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
       propertyPath: m_LocalScale.x
@@ -114051,6 +114095,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muskrat
       objectReference: {fileID: 0}
+    - target: {fileID: 4950779065795438720, guid: 8cb75dc2fdd63734988b8358f1314d25, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -120464,6 +120512,10 @@ PrefabInstance:
     - target: {fileID: 6842458599697738422, guid: cefda5744f2acb54d8f08973a10bee1e, type: 3}
       propertyPath: m_Name
       value: Gecko (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6842458599697738422, guid: cefda5744f2acb54d8f08973a10bee1e, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
       objectReference: {fileID: 0}
     - target: {fileID: 7979196013395532419, guid: cefda5744f2acb54d8f08973a10bee1e, type: 3}
       propertyPath: m_LocalScale.x
@@ -126964,6 +127016,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muskrat (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4950779065795438720, guid: 8cb75dc2fdd63734988b8358f1314d25, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -127898,6 +127954,10 @@ PrefabInstance:
     - target: {fileID: 1342889782683910774, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
       propertyPath: m_Name
       value: Herring (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1342889782683910774, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
       objectReference: {fileID: 0}
     - target: {fileID: 1604981034209185665, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
       propertyPath: m_LocalScale.x
@@ -139598,6 +139658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Colobus
       objectReference: {fileID: 0}
+    - target: {fileID: 6182162820492919152, guid: 84b7c8441f160174fa5c6f94cf397f0a, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -145218,6 +145282,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Colobus (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6182162820492919152, guid: 84b7c8441f160174fa5c6f94cf397f0a, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -147970,6 +148038,10 @@ PrefabInstance:
     - target: {fileID: 6788538757290762323, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
       propertyPath: m_Name
       value: Sparrow (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788538757290762323, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -163549,6 +163621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Herring (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1342889782683910774, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
+      objectReference: {fileID: 0}
     - target: {fileID: 1604981034209185665, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2949795
@@ -167992,6 +168068,10 @@ PrefabInstance:
     - target: {fileID: 5279811246306103102, guid: 252ba5fa5d8167e42af72cf97baa830e, type: 3}
       propertyPath: m_Name
       value: Pudu (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5279811246306103102, guid: 252ba5fa5d8167e42af72cf97baa830e, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -191553,6 +191633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muskrat (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4950779065795438720, guid: 8cb75dc2fdd63734988b8358f1314d25, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -199392,6 +199476,10 @@ PrefabInstance:
     - target: {fileID: 4950779065795438720, guid: 8cb75dc2fdd63734988b8358f1314d25, type: 3}
       propertyPath: m_Name
       value: Muskrat (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950779065795438720, guid: 8cb75dc2fdd63734988b8358f1314d25, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -211301,6 +211389,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011175305078, guid: e4c4e9ea85e4f49d8b0c5abe316e8863, type: 3}
   m_PrefabInstance: {fileID: 2039873396}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2039896304
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4080137362082343134, guid: 9eb888dd04e3c4d52ab5e7ccdab5aece, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 97.45133
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080137362082343134, guid: 9eb888dd04e3c4d52ab5e7ccdab5aece, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.555
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080137362082343134, guid: 9eb888dd04e3c4d52ab5e7ccdab5aece, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -831.6753
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080137362082343134, guid: 9eb888dd04e3c4d52ab5e7ccdab5aece, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7253751
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080137362082343134, guid: 9eb888dd04e3c4d52ab5e7ccdab5aece, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080137362082343134, guid: 9eb888dd04e3c4d52ab5e7ccdab5aece, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.68835384
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080137362082343134, guid: 9eb888dd04e3c4d52ab5e7ccdab5aece, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080137362082343134, guid: 9eb888dd04e3c4d52ab5e7ccdab5aece, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080137362082343134, guid: 9eb888dd04e3c4d52ab5e7ccdab5aece, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -87
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080137362082343134, guid: 9eb888dd04e3c4d52ab5e7ccdab5aece, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103571415216237942, guid: 9eb888dd04e3c4d52ab5e7ccdab5aece, type: 3}
+      propertyPath: m_Name
+      value: XR Origin (XR Rig)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9eb888dd04e3c4d52ab5e7ccdab5aece, type: 3}
 --- !u!1001 &2040222323
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -220791,6 +220936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muskrat (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4950779065795438720, guid: 8cb75dc2fdd63734988b8358f1314d25, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -221507,6 +221656,10 @@ PrefabInstance:
     - target: {fileID: 7511180232019162148, guid: 818c5a1ba0d9810439f11299463f2294, type: 3}
       propertyPath: m_Name
       value: Squid
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511180232019162148, guid: 818c5a1ba0d9810439f11299463f2294, type: 3}
+      propertyPath: m_TagString
+      value: Capturable
       objectReference: {fileID: 0}
     - target: {fileID: 8648425310868573238, guid: 818c5a1ba0d9810439f11299463f2294, type: 3}
       propertyPath: m_LocalScale.x
@@ -224055,3 +224208,4 @@ SceneRoots:
   - {fileID: 1676264859}
   - {fileID: 1295980459}
   - {fileID: 608868924}
+  - {fileID: 2039896304}

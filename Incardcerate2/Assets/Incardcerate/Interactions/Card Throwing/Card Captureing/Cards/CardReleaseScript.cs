@@ -7,6 +7,7 @@ public class CardReleaseScript : MonoBehaviour
     public bool canRelease = false;
     public CaptureScript captureScript;
     public Vector3 contactPoint;
+
     void Start()
     {
         captureScript = GetComponent<CaptureScript>();
@@ -27,6 +28,8 @@ public class CardReleaseScript : MonoBehaviour
         if (hasObject && canRelease)
         {
             Release();
+            GameObject newObj = Instantiate(this.gameObject.GetComponent<ShootScript>().blank);
+            GameObject.Find("Card Atlas").GetComponent<CardAtlas>().blankDeck.Add(newObj.GetComponent<Card>());
         }
     }
 }
